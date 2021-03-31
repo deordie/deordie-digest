@@ -2,7 +2,6 @@
 name: Paper suggestion
 about: Add paper and your thoughts about it
 title: 'Paper title / Author '
-labels: suggestion
 assignees: ''
 
 ---

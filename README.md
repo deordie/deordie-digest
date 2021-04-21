@@ -2,25 +2,18 @@
 
 _DE or DIE – made by date engineers for date engineers._
 
+__Read Data Engineering Digest at <https://digest.deordie.org>__
+
+## Check our other resources
+
 Meetup: <https://deordie.org>  
-Telegram channel: <https://t.me/deordie_chat>  
-YouTube channel: <https://www.youtube.com/c/deordie>.
+Telegram chat: <https://t.me/deordie_chat>  
+YouTube channel: <https://www.youtube.com/c/deordie>
 
-## Digest
+## How to contribute
 
-- __Digest #0 (Pilot)__  
-  
-  - [Designing a Production-Ready Kappa Architecture for Timely Data Stream Processing](https://eng.uber.com/kappa-architecture-data-stream-processing/) — Uber Engineering Blog.  
-
-    > Out-of-order data is a big problem that can be mitigated but in some cases, it should be totally resolved. Usually, it resolved by using lambda architecture. Uber proposes their approach how to handle this problem in kappa architecture.
-
-  - [Handling Late Arriving Dimensions Using a Reconciliation Pattern](https://databricks.com/blog/2020/12/15/handling-late-arriving-dimensions-using-a-reconciliation-pattern.html) — Databricks Blog.
-
-  - [Uber's Journey Toward Better Data Culture From First Principles](https://eng.uber.com/ubers-journey-toward-better-data-culture-from-first-principles/) — Uber Engineering Blog.  
-
-  - [Visualizing Data Timeliness at Airbnb](https://medium.com/airbnb-engineering/visualizing-data-timeliness-at-airbnb-ee638fdf4710) — Airbnb Engineering & Data Science @ Medium.
-
-    > You should open this article only for viewing perfect UI and feeling a professional approach to building tools. Also, you can learn how to segregate different areas. We hope Airbnb will open this perfect tool in the near future.
+This repository is a community-driven Data Engineering digest. You may submit interesting materials (blog posts/papers/talks) to [issue tracker](https://github.com/deordie/deordie-digest/issues).  
+Please, add a short review to your materials. Your personal opinion and essential knowledge extracted from the material is a very important thing. We want to share the most valuable materials with the community. Also, you may vote for the most interesting materials from other contributors.
 
 ## Our partners
 

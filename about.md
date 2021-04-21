@@ -4,19 +4,20 @@ title: About
 permalink: /about/
 ---
 
-# DE News Digest
+# Data Engineering Digest
 
-Community-driven DE news digest. Please, submit your ideas of posts with new comments in our [issue tracker](https://github.com/deordie/deordie-digest/issues).
+Community-driven Data Engineering digest. Please, submit your materials and comments to our [issue tracker](https://github.com/deordie/deordie-digest/issues).
 
-Editors are organizers of [DE or DIE meetups](https://deordie.org/)
+Editors are organizers of [DE or DIE meetups](https://deordie.org/).
 
 ## Editors
 
 * [Ksenia Tomak](https://twitter.com/if_no_then_yes)
 * [Pasha Finkelshteyn](https://twitter.com/asm0di0)
-* others here
+* [Nikita Bochkarev](https://twitter.com/bochkarevnv)
+* Darya Bulanova
+* [Mikhail Kumachev](https://twitter.com/ceridande)
 
 ## Contacts
 
-You can contact us via [telegram](https://t.me/deordie_chat) or contact us individually at [pavel.finkelshtein@gmail.com](mailto:pavel.finkelshtein@gmail.com)
-
+You may contact us via [Telegram](https://t.me/deordie_chat) or via email at [digest@deordie.org](mailto:digest@deordie.org).

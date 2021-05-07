@@ -6,6 +6,8 @@ tags: cost-management data-quality etl flink iceberg kafka kubernetes streaming
 
 Our selection of interesting data engineering materials including a short summary and tags to help you find the most interesting content.
 
+<!--cut-->
+
 ---
 
 [Byte Down: Making Netflix’s Data Infrastructure Cost-Effective](https://netflixtechblog.com/byte-down-making-netflixs-data-infrastructure-cost-effective-fee7b3235032) — Netflix Technology Blog.

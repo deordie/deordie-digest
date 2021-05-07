@@ -4,7 +4,7 @@ title: "#2. May the Force be with you"
 tags: cost-management data-quality etl flink iceberg kafka kubernetes streaming
 ---
 
-Our selection of interesting data engineering materials including a short summary and tags to help you find the most interesting content.
+*Topics: cost management, data quality, ETL, Apache Flink,  Apache Iceberg, Apache Kafka, Kubernetes, streaming.*
 
 <!--cut-->
 
@@ -14,7 +14,7 @@ Our selection of interesting data engineering materials including a short summar
 
 *Some useful ideas of categorizing your infrastructure costs and how to keep it under control.*
 
-![medium](https://img.shields.io/badge/level-medium-blue) ![cost-management](https://img.shields.io/badge/topic-cost--management-5ac955)
+![level:medium] ![topic:cost-management]
 
 ---
 
@@ -22,7 +22,7 @@ Our selection of interesting data engineering materials including a short summar
 
 *How to perform data downtime analysis: where should we look, and a quite controversial idea on "in which order" we should look at potential causes.*
 
-![advanced](https://img.shields.io/badge/level-advanced-blue) ![data-quality](https://img.shields.io/badge/topic-data--quality-d0e708) ![etl](https://img.shields.io/badge/topic-etl-96db0e)
+![level:advanced] ![topic:data-quality] ![topic:etl]
 
 ---
 
@@ -30,7 +30,7 @@ Our selection of interesting data engineering materials including a short summar
 
 *Bird's eye Netflix data processing architecture overview. The interesting part is how they work with schema changes separately from the data.*
 
-![beginner](https://img.shields.io/badge/level-beginner-blue) ![video](https://img.shields.io/badge/type-video-c21bc6) ![iceberg](https://img.shields.io/badge/topic-iceberg-7234c5)
+![level:beginner] ![type:video] ![topic:iceberg]
 
 ---
 
@@ -38,7 +38,7 @@ Our selection of interesting data engineering materials including a short summar
 
 *In the world where k8s won the race we're trying to run everything on it. Here is the recipe of running Flink on Kubernetes.*
 
-![advanced](https://img.shields.io/badge/level-advanced-blue) ![flink](https://img.shields.io/badge/topic-flink-714a49) ![kubernetes](https://img.shields.io/badge/topic-kubernetes-a587ea) ![streaming](https://img.shields.io/badge/topic-streaming-f15a02)
+![level:advanced] ![topic:flink] ![topic:kubernetes] ![topic:streaming]
 
 ---
 
@@ -46,4 +46,21 @@ Our selection of interesting data engineering materials including a short summar
 
 *Three typical architectures for resilient message handling in Kafka. If you have Kafka source in your data pipelines, it can be interesting.*
 
-![medium](https://img.shields.io/badge/level-medium-blue) ![kafka](https://img.shields.io/badge/topic-kafka-cb9eb8) ![streaming](https://img.shields.io/badge/topic-streaming-f15a02)
+![level:medium] ![topic:kafka] ![topic:streaming]
+
+<!--tags-->
+
+[level:beginner]: https://img.shields.io/badge/level-beginner-blue "level:beginner"
+[level:medium]: https://img.shields.io/badge/level-medium-blue "level:medium"
+[level:advanced]: https://img.shields.io/badge/level-advanced-blue "level:advanced"
+
+[type:video]: https://img.shields.io/badge/type-video-c21bc6
+
+[topic:cost-management]: https://img.shields.io/badge/topic-cost--management-5ac955
+[topic:data-quality]: https://img.shields.io/badge/topic-data--quality-d0e708
+[topic:etl]: https://img.shields.io/badge/topic-etl-96db0e
+[topic:iceberg]: https://img.shields.io/badge/topic-iceberg-7234c5
+[topic:flink]: https://img.shields.io/badge/topic-flink-714a49
+[topic:kafka]: https://img.shields.io/badge/topic-kafka-cb9eb8 "topic:kafka"
+[topic:kubernetes]: https://img.shields.io/badge/topic-kubernetes-a587ea
+[topic:streaming]: https://img.shields.io/badge/topic-streaming-f15a02

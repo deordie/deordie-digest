@@ -50,17 +50,17 @@ tags: cost-management data-quality etl flink iceberg kafka kubernetes streaming
 
 <!--tags-->
 
-[level:beginner]: https://img.shields.io/badge/level-beginner-blue "level:beginner"
-[level:medium]: https://img.shields.io/badge/level-medium-blue "level:medium"
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue "level:advanced"
+[level:beginner]: https://img.shields.io/badge/level-beginner-blue
+[level:medium]: https://img.shields.io/badge/level-medium-blue
+[level:advanced]: https://img.shields.io/badge/level-advanced-blue
 
 [type:video]: https://img.shields.io/badge/type-video-c21bc6
 
 [topic:cost-management]: https://img.shields.io/badge/topic-cost--management-5ac955
-[topic:data-quality]: https://img.shields.io/badge/topic-data--quality-d0e708
-[topic:etl]: https://img.shields.io/badge/topic-etl-96db0e
-[topic:iceberg]: https://img.shields.io/badge/topic-iceberg-7234c5
-[topic:flink]: https://img.shields.io/badge/topic-flink-714a49
-[topic:kafka]: https://img.shields.io/badge/topic-kafka-cb9eb8 "topic:kafka"
-[topic:kubernetes]: https://img.shields.io/badge/topic-kubernetes-a587ea
-[topic:streaming]: https://img.shields.io/badge/topic-streaming-f15a02
+[topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708
+[topic:etl]: https://img.shields.io/badge/topic-etl-96DB0E
+[topic:iceberg]: https://img.shields.io/badge/topic-iceberg-7234C5
+[topic:flink]: https://img.shields.io/badge/topic-flink-714A49
+[topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
+[topic:kubernetes]: https://img.shields.io/badge/topic-kubernetes-A587EA
+[topic:streaming]: https://img.shields.io/badge/topic-streaming-f15A02

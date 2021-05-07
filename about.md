@@ -15,7 +15,7 @@ Editors are organizers of [DE or DIE meetups](https://deordie.org/).
 * [Ksenia Tomak](https://twitter.com/if_no_then_yes)
 * [Pasha Finkelshteyn](https://twitter.com/asm0di0)
 * [Nikita Bochkarev](https://twitter.com/bochkarevnv)
-* [Darya Bulanova] (https://twitter.com/bulanovadarya)
+* [Darya Bulanova](https://twitter.com/bulanovadarya)
 * [Mikhail Kumachev](https://twitter.com/ceridande)
 
 ## Contacts

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#4. A spark of the summer sun."
+title: "#4. A spark of the summer sun"
 tags: architecture fugue pandas team spark story streaming
 ---
 

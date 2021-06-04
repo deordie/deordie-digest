@@ -36,7 +36,7 @@ tags: architecture fugue pandas team spark story streaming
 
 [Uber's Data Journey 100+PB with Minute Latency](https://youtu.be/YxlmgwHJaqw) — Reza Shiftehfar @ Uber.
 
-*Uber's talk about three generations of data systems, their architecture, pains, limitations, insights. We like to watch about typical architectures so why not look at three at once.*
+*In this talk, Uber reflects on their journey with scaling Data Infrastructure from 1PB to 10PB to 100PB and beyond while reducing latency from 24 hours to 3h to 1h to 10 minutes. There a lot of details about architecture evolution and instruments. And one important thing, at what point should you think about building a Data Platform.*
 
 ![level:medium] ![type:video] ![topic:architecture] ![topic:story]
 

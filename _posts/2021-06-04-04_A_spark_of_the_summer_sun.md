@@ -26,7 +26,7 @@ tags: architecture fugue pandas team spark story streaming
 
 ---
 
-[Using Distributed Computing for Neuroimaging](https://netflixtechblog.com/keystone-real-time-stream-processing-platform-a3ee651812a) — Dr. Alessandro Crimi @ Towards Data Science.
+[Using Distributed Computing for Neuroimaging](https://towardsdatascience.com/using-distributed-computing-for-neuroimaging-2689cfc144c9?gi=701ac393075d) — Dr. Alessandro Crimi @ Towards Data Science.
 
 *Did you ever think that data engineering may literally save lives? Well, it turns out it can. Real-world example.*
 

@@ -18,8 +18,7 @@ tags: architecture fugue pandas team spark story streaming
 
 ---
 
-[Keystone Real-time Stream Processing Platform](https://netflixtechblog.com/keystone-real-time-stream-processing-platform-a3ee651812a) — Netflix Technology Blog
-.
+[Keystone Real-time Stream Processing Platform](https://netflixtechblog.com/keystone-real-time-stream-processing-platform-a3ee651812a) — Netflix Technology Blog.
 
 *A high-level overview of Netflix design principles and approaches.*
 

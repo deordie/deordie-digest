@@ -61,4 +61,4 @@ tags: architecture fugue pandas team spark story streaming
 [topic:team]: https://img.shields.io/badge/topic-team-E0894F
 [topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
 [topic:story]: https://img.shields.io/badge/topic-story-62A6B1
-[topic:streaming]: https://img.shields.io/badge/topic-streaming-f15A02
+[topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02

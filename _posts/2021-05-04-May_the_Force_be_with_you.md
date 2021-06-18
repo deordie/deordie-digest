@@ -63,4 +63,4 @@ tags: cost-management data-quality etl flink iceberg kafka kubernetes streaming
 [topic:flink]: https://img.shields.io/badge/topic-flink-714A49
 [topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
 [topic:kubernetes]: https://img.shields.io/badge/topic-kubernetes-A587EA
-[topic:streaming]: https://img.shields.io/badge/topic-streaming-f15A02
+[topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02

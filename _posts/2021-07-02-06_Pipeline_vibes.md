@@ -71,4 +71,3 @@ Thanks to @SimonOsipov for this topic.
 [topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
 [topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-blueviolet
 [topic:pipelines]: https://img.shields.io/badge/topic-pipelines-92a87f
-

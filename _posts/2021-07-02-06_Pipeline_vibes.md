@@ -12,7 +12,7 @@ tags: dagster data-quality kafka late-arriving-data pipelines
 
 [Data Quality Meetup #4](https://www.datafold.com/blog/data-quality-meetup-4/) — Datafold Team.
 
-*Data Quality Meetup #4 from Datafold. The following topics is discussed:*
+*The following topics is discussed:*
 
 - *The Best Data Quality Investment in 2021*
 - *Verity: Data Quality as a Service*

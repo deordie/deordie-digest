@@ -35,7 +35,7 @@ Thanks to @SimonOsipov for this topic.
 ---
 
 [Understanding Kafka Topic Partitions](https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8) — Dunith Dhanushka
- @ Event-driven Utopia (Medium).
+ @ Event-driven Utopia.
 
 *Our editor Ksenia is a personal fan of Dunith Dhanushka articles. Many schemes, easy to read, practical use!*
 

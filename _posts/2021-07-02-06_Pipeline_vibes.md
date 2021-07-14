@@ -20,7 +20,7 @@ tags: dagster data-quality kafka late-arriving-data pipelines
 - *Building Security Conscious Data Apps*
 - *Fake It Till You Make It: A Backward Approach to Data Products*
 
-Thanks to @SimonOsipov for this topic.
+Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 
 ![level:medium] ![type:video] ![topic:data-quality]
 

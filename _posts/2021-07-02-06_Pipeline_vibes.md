@@ -34,8 +34,7 @@ Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 
 ---
 
-[Understanding Kafka Topic Partitions](https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8) — Dunith Dhanushka
- @ Event-driven Utopia.
+[Understanding Kafka Topic Partitions](https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8) — Dunith Dhanushka @ Event-driven Utopia.
 
 *Our editor Ksenia is a personal fan of Dunith Dhanushka articles. Many schemes, easy to read, practical use!*
 
@@ -70,4 +69,4 @@ Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 [topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708
 [topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
 [topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-blueviolet
-[topic:pipelines]: https://img.shields.io/badge/topic-pipelines-92a87f
+[topic:pipelines]: https://img.shields.io/badge/topic-pipelines-92A87F

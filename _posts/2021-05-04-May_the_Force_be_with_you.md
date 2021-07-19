@@ -4,7 +4,7 @@ title: "#2. May the Force be with you"
 tags: cost-management data-quality etl flink iceberg kafka kubernetes streaming
 ---
 
-*Topics: cost management, data quality, ETL, Apache Flink,  Apache Iceberg, Apache Kafka, Kubernetes, streaming.*
+*Topics: cost management, data quality, ETL, Apache Flink, Apache Iceberg, Apache Kafka, Kubernetes, streaming.*
 
 <!--cut-->
 

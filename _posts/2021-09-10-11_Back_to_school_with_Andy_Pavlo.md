@@ -15,7 +15,7 @@ tags: courses databases data-mesh hive kafka practices spark
 **Intro to Database Systems**
 
 *This is a very fundamental and wide course about the implementation and design concepts behind database management systems.*
-c
+
 **Advanced Database Systems**
 
 *This is continuous of the first course and will cover more advanced topics about databases such as multi-version concurrency control, detailed talk about join algorithms, and query optimization implementation.*

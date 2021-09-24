@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#12. Become an open-source star!"
+title: "#12. Become an open-source star"
 tags: airflow architecture community late-arriving-data storage-engine streaming
 ---
 

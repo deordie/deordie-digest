@@ -14,7 +14,7 @@ tags: architecture data-quality data-thoughts spark
 
 *The Ultimate Question of Life, the Universe, and Everything: What is NULL?*
 
-Thanks to [@xnegxneg](https:/t.me/xnegxneg) for this topic.
+Thanks to [@xnegxneg](https://t.me/xnegxneg) for this topic.
 
 ![level:medium] ![topic:spark]
 

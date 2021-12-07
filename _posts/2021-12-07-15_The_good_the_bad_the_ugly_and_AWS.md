@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#15. "
+title: "#15. The good, the bad, the ugly, and AWS"
 tags: architecture data-quality data-thoughts aws emr
 ---
 

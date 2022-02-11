@@ -45,7 +45,7 @@ Almost all databases claim the consistency model, but this model usually has hol
 
 [Understanding the Metrics Store](https://medium.com/kyligence/understanding-the-metrics-store-c213341e4c25) — Joanna He @ Kyligence Blog.
 
-*The article about Minerva, Airbnb’s metric platform (digests 9 and 12), seems unique, but it's actually not. The term seeps into everyday life and no longer looks so unusual. This simple article will shed light on the essence of the metric store.*
+*The article about Minerva, Airbnb’s metric platform (digests [#9](https://digest.deordie.org/09_Goddess_blessing/) and [#12](https://digest.deordie.org/12_Become_an_open_source_star/)), seems unique, but it's actually not. The term seeps into everyday life and no longer looks so unusual. This simple article will shed light on the essence of the metric store.*
 
 ![level:medium] ![topic:architecture]
 

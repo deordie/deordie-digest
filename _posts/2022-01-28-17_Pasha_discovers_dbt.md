@@ -4,7 +4,7 @@ title: "#17. Pasha discovers dbt"
 tags: community dbt kafka spark streaming
 ---
 
-*Topics: community, dbt, Apache Kafka, Apache Spark, streaming*
+*Topics: Community, dbt, Apache Kafka, Apache Spark, streaming*
 
 <!--cut-->
 

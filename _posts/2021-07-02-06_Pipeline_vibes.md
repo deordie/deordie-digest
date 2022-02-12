@@ -56,17 +56,4 @@ Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 
 ![level:medium] ![topic:pipelines]
 
-<!--tags-->
-
-[level:beginner]: https://img.shields.io/badge/level-beginner-blue
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue
-
-[type:video]: https://img.shields.io/badge/type-video-c21bc6
-[type:whitepaper]: https://img.shields.io/badge/type-whitepaper-900f02
-
-[topic:dagster]: https://img.shields.io/badge/topic-dagster-29197d
-[topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708
-[topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
-[topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-222A4C
-[topic:pipelines]: https://img.shields.io/badge/topic-pipelines-92A87F
+{% include tags.md %}

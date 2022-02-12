@@ -48,18 +48,4 @@ tags: architecture aws data-quality deltalake glue hudi iceberg kafka pipelines 
 
 ![level:medium] ![topic:architecture] ![topic:aws]
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:aws]: https://img.shields.io/badge/topic-aws-D93F0B
-[topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708
-[topic:deltalake]: https://img.shields.io/badge/topic-deltalake-E47F10
-[topic:glue]: https://img.shields.io/badge/topic-glue-8E9D01
-[topic:hudi]: https://img.shields.io/badge/topic-hudi-532D33
-[topic:iceberg]: https://img.shields.io/badge/topic-iceberg-7234C5
-[topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
-[topic:pipelines]: https://img.shields.io/badge/topic-pipelines-92A87F
-[topic:storage]: https://img.shields.io/badge/topic-storage-F51F63
+{% include tags.md %}

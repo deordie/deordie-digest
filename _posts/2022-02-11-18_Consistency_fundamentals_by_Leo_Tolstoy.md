@@ -49,16 +49,4 @@ Almost all databases claim the consistency model, but this model usually has hol
 
 ![level:medium] ![topic:architecture]
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue
-
-[type:video]: https://img.shields.io/badge/type-video-c21bc6
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:consistency]: https://img.shields.io/badge/topic-consistency-F3D86D
-[topic:culture]: https://img.shields.io/badge/topic-culture-07D20A
-[topic:databases]: https://img.shields.io/badge/topic-databases-28F66A
-[topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708
-[topic:storage-engine]: https://img.shields.io/badge/topic-storage--engine-0A6531
+{% include tags.md %}

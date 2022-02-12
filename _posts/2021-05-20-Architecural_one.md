@@ -48,16 +48,4 @@ tags: architecture debezium flink kafka late-arriving-data streaming
 
 ![level:medium] ![type:video] ![topic:architecture]
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue
-
-[type:video]: https://img.shields.io/badge/type-video-c21bc6
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:debezium]: https://img.shields.io/badge/topic-debezium-C2E0C6
-[topic:flink]: https://img.shields.io/badge/topic-flink-714A49
-[topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
-[topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-222A4C
-[topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02
+{% include tags.md %}

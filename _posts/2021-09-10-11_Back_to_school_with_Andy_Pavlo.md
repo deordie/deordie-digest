@@ -65,16 +65,4 @@ tags: courses databases data-mesh hive kafka practices spark
 - [Kafka Summit](https://www.kafka-summit.org/events/kafka-summit-americas-2021/about), September 14-15
 - [ApacheCon](https://www.apachecon.com/acah2021/), September 21-23 
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-
-[type:course]: https://img.shields.io/badge/type-course-F9F27A
-[type:video]: https://img.shields.io/badge/type-video-c21bc6
-
-[topic:databases]: https://img.shields.io/badge/topic-databases-28F66A
-[topic:data-mesh]: https://img.shields.io/badge/topic-data--mesh-23DB1D
-[topic:hive]: https://img.shields.io/badge/topic-hive-600FDE
-[topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
-[topic:practices]: https://img.shields.io/badge/topic-practices-7AC6AA
-[topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
+{% include tags.md %}

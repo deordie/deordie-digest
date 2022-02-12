@@ -49,13 +49,4 @@ tags: community dbt kafka spark streaming
 
 ![level:beginner] ![topic:kafka]
 
-<!--tags-->
-
-[level:beginner]: https://img.shields.io/badge/level-beginner-blue
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-
-[topic:dbt]: https://img.shields.io/badge/topic-dbt-D0FAB0
-[topic:community]: https://img.shields.io/badge/topic-community-33782C
-[topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
-[topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
-[topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02
+{% include tags.md %}

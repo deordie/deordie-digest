@@ -49,12 +49,4 @@ Thanks to <https://t.me/rockyourdata> community.
 
 ![level:medium] ![topic:architecture] ![topic:data-vault]
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:data-vault]: https://img.shields.io/badge/topic-data--vault-1EB10F
-[topic:python]: https://img.shields.io/badge/topic-python-EE9510
-[topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
-[topic:storage-engine]: https://img.shields.io/badge/topic-storage--engine-0A6531
+{% include tags.md %}

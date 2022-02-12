@@ -4,7 +4,7 @@ title: "#15. The good, the bad, the ugly, and AWS"
 tags: architecture data-quality data-thoughts aws emr
 ---
 
-*Topics: Architecture, data thoughts, databases, AWS, EMR*
+*Topics: Architecture, data thoughts, databases, AWS, Amazon EMR*
 
 <!--cut-->
 
@@ -48,12 +48,4 @@ tags: architecture data-quality data-thoughts aws emr
 
 ![level:medium] ![topic:aws] ![topic:emr] 
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:aws]: https://img.shields.io/badge/topic-aws-D93F0B
-[topic:databases]: https://img.shields.io/badge/topic-databases-28F66A
-[topic:data-thoughts]: https://img.shields.io/badge/topic-data--thoughts-3AC9BA
-[topic:emr]: https://img.shields.io/badge/topic-emr-B2BAF4
+{% include tags.md %}

@@ -54,17 +54,8 @@ tags: airflow architecture community late-arriving-data storage-engine streaming
 ---
 
 
-### Сoming conferences
+### Upcoming conferences
+
 - [Open Source Data Stack Conference](https://www.opensourcedatastack.com/), September 28-30
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue
-
-[topic:airflow]: https://img.shields.io/badge/topic-airflow-F8B4C6
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:community]: https://img.shields.io/badge/topic-community-33782C
-[topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-222A4C
-[topic:storage-engine]: https://img.shields.io/badge/topic-storage--engine-0A6531
-[topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02
+{% include tags.md %}

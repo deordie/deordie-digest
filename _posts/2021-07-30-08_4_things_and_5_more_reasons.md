@@ -49,16 +49,4 @@ Also, you may take a look at the [Kroki](https://kroki.io/) tool.*
 
 ![level:beginner] ![topic:architecture] ![topic:tooling]
 
-<!--tags-->
-
-[level:beginner]: https://img.shields.io/badge/level-beginner-blue
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:data-lake]: https://img.shields.io/badge/topic-data--lake-CE295A
-[topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708
-[topic:data-warehouse]: https://img.shields.io/badge/topic-data--warehouse-828FF4
-[topic:iceberg]: https://img.shields.io/badge/topic-iceberg-7234C5
-[topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
-[topic:pulsar]: https://img.shields.io/badge/topic-pulsar-7D340B
-[topic:tooling]: https://img.shields.io/badge/topic-tooling-F3A385
+{% include tags.md %}

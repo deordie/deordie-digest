@@ -49,16 +49,4 @@ tags: airflow architecture data-lineage data-mesh kafka spark
 ![level:medium] ![topic:kafka]
 
 
-<!--tags-->
-
-[level:beginner]: https://img.shields.io/badge/level-beginner-blue
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-
-[type:video]: https://img.shields.io/badge/type-video-c21bc6
-
-[topic:airflow]: https://img.shields.io/badge/topic-airflow-F8B4C6
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:data-lineage]: https://img.shields.io/badge/topic-data--lineage-8CE67B
-[topic:data-mesh]: https://img.shields.io/badge/topic-data--mesh-23DB1D
-[topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
-[topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
+{% include tags.md %}

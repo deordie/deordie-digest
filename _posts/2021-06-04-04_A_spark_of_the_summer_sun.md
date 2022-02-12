@@ -48,17 +48,4 @@ tags: architecture fugue pandas team spark story streaming
 
 ![level:medium] ![topic:architecture] ![topic:team]
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue
-
-[type:video]: https://img.shields.io/badge/type-video-c21bc6
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:fugue]: https://img.shields.io/badge/topic-fugue-72F8DC
-[topic:pandas]: https://img.shields.io/badge/topic-pandas-F28328
-[topic:team]: https://img.shields.io/badge/topic-team-E0894F
-[topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
-[topic:story]: https://img.shields.io/badge/topic-story-62A6B1
-[topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02
+{% include tags.md %}

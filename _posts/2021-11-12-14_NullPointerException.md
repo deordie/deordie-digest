@@ -50,16 +50,4 @@ Thanks to [@xnegxneg](https://t.me/xnegxneg) for this topic.
 
 ![level:advanced] ![type:whitepaper] ![topic:data-quality] 
 
-<!--tags-->
-
-[level:beginner]: https://img.shields.io/badge/level-beginner-blue
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue
-
-[type:whitepaper]: https://img.shields.io/badge/type-whitepaper-900F02
-
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708
-[topic:data-thoughts]: https://img.shields.io/badge/topic-data--thoughts-3AC9BA
-[topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
+{% include tags.md %}

@@ -50,14 +50,4 @@ Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 
 ![level:medium] ![topic:benchmark] ![topic:tooling]
 
-<!--tags-->
-
-[level:medium]: https://img.shields.io/badge/level-medium-blue
-[level:advanced]: https://img.shields.io/badge/level-advanced-blue
-
-[topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
-[topic:benchmark]: https://img.shields.io/badge/topic-benchmark-073151
-[topic:docker]: https://img.shields.io/badge/topic-docker-2A4E17
-[topic:hadoop]: https://img.shields.io/badge/topic-hadoop-C2685F
-[topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
-[topic:tooling]: https://img.shields.io/badge/topic-tooling-F3A385
+{% include tags.md %}

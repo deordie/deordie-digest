@@ -5,6 +5,6 @@
 [topic:analytics]: https://img.shields.io/badge/topic-analytics-3B10ED "topic: analytics"
 [topic:culture]: https://img.shields.io/badge/topic-culture-07D20A "topic: culture"
 [topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-222A4C "topic: late arriving data"
-[topic:mlops]: https://img.shields.io/badge/topic-mlops-orange
-[topic:monitoring]: https://img.shields.io/badge/topic-monitoring-CC0A65 "topic: MLOps"
+[topic:mlops]: https://img.shields.io/badge/topic-mlops-orange "topic: MLOps"
+[topic:monitoring]: https://img.shields.io/badge/topic-monitoring-CC0A65 "topic: monitoring"
 [topic:visualization]: https://img.shields.io/badge/topic-visualization-557D5C "topic: visualization"

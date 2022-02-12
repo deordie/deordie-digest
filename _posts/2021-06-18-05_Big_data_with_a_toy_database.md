@@ -53,11 +53,11 @@ tags: analytics data-quality debezium kafka late-arriving-data spark streaming s
 [level:beginner]: https://img.shields.io/badge/level-beginner-blue
 [level:medium]: https://img.shields.io/badge/level-medium-blue
 
-[topic:analytics]: https://img.shields.io/badge/topic-analytics-blueviolet
+[topic:analytics]: https://img.shields.io/badge/topic-analytics-3B10ED
 [topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708
 [topic:debezium]: https://img.shields.io/badge/topic-debezium-C2E0C6
 [topic:kafka]: https://img.shields.io/badge/topic-kafka-CB9EB8
-[topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-blueviolet
+[topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-222A4C
 [topic:spark]: https://img.shields.io/badge/topic-spark-6157A8
 [topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02
 [topic:sqlite]: https://img.shields.io/badge/topic-sqlite-506F34

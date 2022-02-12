@@ -65,6 +65,6 @@ tags: airflow architecture community late-arriving-data storage-engine streaming
 [topic:airflow]: https://img.shields.io/badge/topic-airflow-F8B4C6
 [topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B
 [topic:community]: https://img.shields.io/badge/topic-community-33782C
-[topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-blueviolet
+[topic:late-arriving-data]: https://img.shields.io/badge/topic-late--arriving--data-222A4C
 [topic:storage-engine]: https://img.shields.io/badge/topic-storage--engine-0A6531
 [topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02

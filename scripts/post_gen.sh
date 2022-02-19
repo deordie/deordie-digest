@@ -14,8 +14,14 @@
 ########################################
 # Constants and arguments              #
 ########################################
+if [ $# -eq 0 ]; then
+    echo "You must provide the milestone number"
+    exit 1
+fi
+
 REPO="deordie/deordie-digest"
 DATE=$(date "+%Y-%m-%d")
+DIR=$(dirname "$0")
 MILESTONE=$1
 TITLE=${2:-Undefined}
 
@@ -24,14 +30,14 @@ TITLE=${2:-Undefined}
 # User-defined functions               #
 ########################################
 trim() {
-    while read text; do
-        echo $text | sed "s/^[\| ]*//;s/[\| ]*$//"
+    while read -r text; do
+        echo "$text" | sed "s/^[\| ]*//;s/[\| ]*$//"
     done
 }
 
 wrap() {
-    while read label; do
-        echo [$label]
+    while read -r label; do
+        echo ["$label"]
     done
 }
 
@@ -39,9 +45,9 @@ wrap() {
 ########################################
 # Get issues from GitHub               #
 ########################################
-issues=($(gh issue list --state all --json number,milestone --jq ".[] | select(.milestone.number == $MILESTONE) | .number" --repo $REPO | sort -n))
-labels=($(gh issue list --state all --json milestone,labels --jq ".[] | select(.milestone.number == 18) | .labels[].name"  --repo $REPO | sort -u | wrap))
-echo "Issues to be added: ${issues[@]}"
+mapfile -t issues < <(gh issue list --state all --json number,milestone --jq ".[] | select(.milestone.number == $MILESTONE) | .number" --repo $REPO | sort -n)
+mapfile -t labels < <(gh issue list --state all --json milestone,labels --jq ".[] | select(.milestone.number == 18) | .labels[].name"  --repo $REPO | sort -u | wrap)
+echo "Issues to be added: " "${issues[@]}"
 
 
 ########################################
@@ -49,33 +55,42 @@ echo "Issues to be added: ${issues[@]}"
 ########################################
 declare -A tags
 
-while read line; do
-    tag=$(echo $line | sed "s/: *https:\/\/.\+$//")
-    desc=$(echo $line | sed "s/^.\+https:\/\/.\+ \"topic: *//"  | sed "s/\"//")
+while read -r line; do
+    tag=$(echo "$line" | sed "s/: *https:\/\/.\+$//")
+    desc=$(echo "$line" | sed "s/^.\+https:\/\/.\+ \"topic: *//"  | sed "s/\"//")
     tags[$tag]=$desc
-done <<< $(cat $(dirname $0)/../_includes/tags.md | grep "^\[topic")
+done < <(grep "^\[topic" < "$DIR"/../_includes/tags.md)
 
 post_tags=()
 post_topics=()
 
-while read label; do
-    post_tags+=($(echo $label | sed "s/\[topic://" | sed "s/\]//"))
-    post_topics+=(${tags[$label]},)
-done <<< $(printf "%s\n" "${labels[@]}" | grep "^\[topic")
+while read -r label; do
+    new_tag=$(echo "$label" | sed "s/\[topic://;s/\]//")
+    post_tags+=("$new_tag")
+    post_topics+=("${tags[$label]},")
+done < <(printf "%s\n" "${labels[@]}" | grep "^\[topic")
+
 
 ########################################
 # Create file with header              #
 ########################################
-filename="./_posts/${DATE}-${MILESTONE}_$(sed 's/ /_/g' <<< ${TITLE^}).md"
+didgest_title=${TITLE^}
+didgest_title=${didgest_title// /_}
 
-cat <<EOF > $filename
+topics_line=${post_topics[*]}
+topics_line=${topics_line%?}
+topics_line=${topics_line^}
+
+filename="./_posts/${DATE}-${MILESTONE}_${didgest_title}.md"
+
+cat <<EOF > "$filename"
 ---
 layout: post
 title: "#${MILESTONE}. ${TITLE^}"
-tags: ${post_tags[@]}
+tags: ${post_tags[*]}
 ---
 
-*Topics: $(echo ${post_topics[@]^} | sed "s/,$//")*
+*Topics: $topics_line*
 
 <!--cut-->
 EOF
@@ -85,19 +100,25 @@ EOF
 # Generate body                        #
 ########################################
 for number in "${issues[@]}"; do
-    issue=$(gh issue view $number --json title,body,labels --repo $REPO)
-    raw_title=$(echo $issue | jq -r ".title")
-    raw_body=$(echo $issue | jq -r ".body" | sed "s/\\r/|/g")
+    echo "Start processing issue #$number..."
 
-    title=$(echo ${raw_title%/*} | sed "s/^[ \t]*//;s/[ \t]*$//")
-    author=$(echo ${raw_title#*/} | sed "s/^[ \t]*//;s/[ \t]*$//")
+    issue=$(gh issue view "$number" --json title,body,labels --repo $REPO)
+    # issue='{"body":"__URL:__ https://barrmoses.medium.com/stop-treating-your-data-engineer-like-a-data-catalog-14ed3eacf646\r\n\r\n__Review (1-2 sentences):__ Data engineers are not data catalogs! That says it all. \r\nThere is a small guide on how to make dream come true.\r\n","labels":[{"id":"MDU6TGFiZWwyOTE0NTEwNDQ4","name":"level:medium","description":"","color":"1d76db"},{"id":"MDU6TGFiZWwyOTM0NTY2NTE3","name":"topic:culture","description":"","color":"07D20A"}],"title":"Stop Treating Your Data Engineer Like a Data Catalog / Barr Moses @ Medium "}'
 
-    url=$(echo $raw_body | sed "s/^.*__URL:__//" | sed "s/__Review.*$//" | trim)
-    review=$(echo $raw_body | sed "s/^.*__//g" | trim | sed "s/|/\r\n/g")
+    raw_title=$(echo "$issue" | jq -r ".title")
+    raw_body=$(echo "$issue" | jq ".body" | sed "s/\\\r//g" | sed "s/\\\n/|/g")
+    raw_body=${raw_body:1}
+    raw_body=${raw_body%?}
 
-    issue_labels=($(echo $issue | jq -r ".labels[].name" | sort | wrap))
+    title=$(echo "${raw_title%/*}" | sed "s/^[ \t]*//;s/[ \t]*$//")
+    author=$(echo "${raw_title#*/}" | sed "s/^[ \t]*//;s/[ \t]*$//")
 
-    cat <<EOF >> $filename
+    url=$(echo "$raw_body" | sed "s/^.*__URL:__//" | sed "s/__Review.*$//" | trim)
+    review=$(echo "$raw_body" | sed "s/^.*__//g" | trim | sed "s/||/|/g" | sed "s/|/\n/g")
+
+    mapfile -t issue_labels < <(echo "$issue" | jq -r ".labels[].name" | sort | wrap)
+
+    cat <<EOF >> "$filename"
 
 ---
 
@@ -109,12 +130,15 @@ ${issue_labels[@]}
 
 EOF
 
+    echo "Issue #$number was added to the file."
 done
 
 
 ########################################
 # Generate footer                      #
 ########################################
-cat <<EOF >> $filename
+cat <<EOF >> "$filename"
 {% include tags.md %}
 EOF
+
+echo "Done."

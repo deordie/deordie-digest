@@ -103,7 +103,6 @@ for number in "${issues[@]}"; do
     echo "Start processing issue #$number..."
 
     issue=$(gh issue view "$number" --json title,body,labels --repo $REPO)
-    # issue='{"body":"__URL:__ https://barrmoses.medium.com/stop-treating-your-data-engineer-like-a-data-catalog-14ed3eacf646\r\n\r\n__Review (1-2 sentences):__ Data engineers are not data catalogs! That says it all. \r\nThere is a small guide on how to make dream come true.\r\n","labels":[{"id":"MDU6TGFiZWwyOTE0NTEwNDQ4","name":"level:medium","description":"","color":"1d76db"},{"id":"MDU6TGFiZWwyOTM0NTY2NTE3","name":"topic:culture","description":"","color":"07D20A"}],"title":"Stop Treating Your Data Engineer Like a Data Catalog / Barr Moses @ Medium "}'
 
     raw_title=$(echo "$issue" | jq -r ".title")
     raw_body=$(echo "$issue" | jq ".body" | sed "s/\\\r//g" | sed "s/\\\n/|/g")

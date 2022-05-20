@@ -53,8 +53,8 @@ This article is follow up to [DE or DIE Meetup #9](https://www.youtube.com/watch
 
 ### Upcoming Conferences
 
-- Airflow Summit, May 23-27, https://airflowsummit.org/
-- Snowflake Summit, June 13-16, https://www.snowflake.com/summit
-- Data and AI Summit, June 27-30, https://databricks.com/dataaisummit/north-america-2022
+- Airflow Summit, May 23-27, <https://airflowsummit.org/>
+- Snowflake Summit, June 13-16, <https://www.snowflake.com/summit>
+- Data and AI Summit, June 27-30, <https://databricks.com/dataaisummit/north-america-2022>
 
 {% include tags.md %}

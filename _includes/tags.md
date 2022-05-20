@@ -48,6 +48,7 @@
 [topic:pandas]: https://img.shields.io/badge/topic-pandas-F28328 "topic: Pandas"
 [topic:pipelines]: https://img.shields.io/badge/topic-pipelines-92A87F "topic: pipelines"
 [topic:practices]: https://img.shields.io/badge/topic-practices-7AC6AA "topic: practices"
+[topic:presto]: https://img.shields.io/badge/topic-presto-5AABB6 "Presto"
 [topic:pulsar]: https://img.shields.io/badge/topic-pulsar-7D340B "topic: Apache Pulsar"
 [topic:python]: https://img.shields.io/badge/topic-python-EE9510 "topic: Python"
 [topic:spark]: https://img.shields.io/badge/topic-spark-6157A8 "topic: Apache Spark"

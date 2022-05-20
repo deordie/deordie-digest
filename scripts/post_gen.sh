@@ -37,7 +37,7 @@ trim() {
 
 wrap() {
     while read -r label; do
-        echo ["$label"]
+        echo !["$label"]
     done
 }
 

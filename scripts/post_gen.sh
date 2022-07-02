@@ -1,14 +1,18 @@
 #!/usr/bin/env bash
 
-###############################################################################
-# This script generates post content based on issue number.                   #
-# Make sure issue is filled properly including: title, url, review and labels.# 
-#                                                                             #
-# Script prerequisites:                                                       #
-# - gh (https://cli.github.com/)                                              #
-# - jq (https://stedolan.github.io/jq/)                                       #
-# - sed (https://www.gnu.org/software/sed/manual/sed.html)                    #
-###############################################################################
+#############################################################################################
+# This script generates post content based on issue number.                                 #
+# Make sure issue is filled properly including: title, url, review and labels.              #
+#                                                                                           #
+# Usage:                                                                                    #
+# ./post_gen.sh 20               # generates post for milestone #20 with title "Undefined"  #
+# ./post_gen.sh 20 "Cool title"  # generates post for milestone #20 with title "Cool title" #
+#                                                                                           #
+# Script prerequisites:                                                                     #
+# - gh (https://cli.github.com/)                                                            #
+# - jq (https://stedolan.github.io/jq/)                                                     #
+# - sed (https://www.gnu.org/software/sed/manual/sed.html)                                  #
+#############################################################################################
 
 
 ########################################
@@ -21,7 +25,7 @@ fi
 
 REPO="deordie/deordie-digest"
 DATE=$(date "+%Y-%m-%d")
-DIR=$(dirname "$0")
+DIR=$(cd -- "$(dirname "$0")" >/dev/null 2>&1 || exit ; pwd -P)
 MILESTONE=$1
 TITLE=${2:-Undefined}
 
@@ -81,7 +85,7 @@ topics_line=${post_topics[*]}
 topics_line=${topics_line%?}
 topics_line=${topics_line^}
 
-filename="./_posts/${DATE}-${MILESTONE}_${didgest_title}.md"
+filename="${DIR}/../_posts/${DATE}-${MILESTONE}_${didgest_title}.md"
 
 cat <<EOF > "$filename"
 ---

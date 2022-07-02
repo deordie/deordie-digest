@@ -48,5 +48,4 @@ tags: airflow community data-quality kafka storage
 
 ![level:medium] ![topic:data-quality]
 
-
 {% include tags.md %}

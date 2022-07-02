@@ -41,7 +41,7 @@ trim() {
 
 wrap() {
     while read -r label; do
-        echo !["$label"]
+        echo "$1"["$label"]
     done
 }
 
@@ -78,14 +78,14 @@ done < <(printf "%s\n" "${labels[@]}" | grep "^\[topic")
 ########################################
 # Create file with header              #
 ########################################
-didgest_title=${TITLE^}
-didgest_title=${didgest_title// /_}
+digest_title=${TITLE^}
+digest_title=${digest_title// /_}
 
 topics_line=${post_topics[*]}
 topics_line=${topics_line%?}
 topics_line=${topics_line^}
 
-filename="${DIR}/../_posts/${DATE}-${MILESTONE}_${didgest_title}.md"
+filename="${DIR}/../_posts/${DATE}-${MILESTONE}_${digest_title}.md"
 
 cat <<EOF > "$filename"
 ---
@@ -97,6 +97,7 @@ tags: ${post_tags[*]}
 *Topics: $topics_line*
 
 <!--cut-->
+
 EOF
 
 
@@ -119,10 +120,9 @@ for number in "${issues[@]}"; do
     url=$(echo "$raw_body" | sed "s/^.*__URL:__//" | sed "s/__Review.*$//" | trim)
     review=$(echo "$raw_body" | sed "s/^.*__//g" | trim | sed "s/||/|/g" | sed "s/|/\n/g")
 
-    mapfile -t issue_labels < <(echo "$issue" | jq -r ".labels[].name" | sort | wrap)
+    mapfile -t issue_labels < <(echo "$issue" | jq -r ".labels[].name" | sort | wrap !)
 
     cat <<EOF >> "$filename"
-
 ---
 
 [$title]($url) — $author

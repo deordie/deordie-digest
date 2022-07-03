@@ -1,0 +1,33 @@
+name: Generate new digest
+on:
+  workflow_dispatch:
+    inputs:
+      milestone:
+        description: 'Milestone number'
+        required: true
+        type: string
+      title:
+        description: 'Digest title'
+        required: false
+        default: ''
+
+jobs:
+  create-digest-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate Digest
+        run: chmod +x scripts/post_gen.sh && ./scripts/post_gen.sh
+        shell: bash
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: Add digest ${{ inputs.milestone }}
+          title: Add digest ${{ inputs.milestone }}
+          body: Auto-generated digest ${{ inputs.milestone }}
+          branch: digest-${{ inputs.milestone }}
+          milestone: ${{ inputs.milestone }}
+          delete-branch: true

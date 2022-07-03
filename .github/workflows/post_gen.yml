@@ -21,6 +21,8 @@ jobs:
       - name: Generate Digest
         run: chmod +x scripts/post_gen.sh && ./scripts/post_gen.sh ${{ inputs.milestone }} ${{ inputs.title }}
         shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4

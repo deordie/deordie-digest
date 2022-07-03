@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: Generate Digest
-        run: chmod +x scripts/post_gen.sh && ./scripts/post_gen.sh
+        run: chmod +x scripts/post_gen.sh && ./scripts/post_gen.sh ${{ inputs.milestone }} ${{ inputs.title }}
         shell: bash
 
       - name: Create Pull Request

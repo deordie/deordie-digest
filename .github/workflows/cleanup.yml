@@ -1,0 +1,21 @@
+name: Cleanup issues after publishing
+on:
+  workflow_dispatch:
+    inputs:
+      milestone:
+        description: 'Milestone number'
+        required: true
+        type: string
+
+jobs:
+  create-digest-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Cleanup issues and close the milestone
+        run: chmod +x scripts/cleanup.sh && ./scripts/cleanup.sh ${{ inputs.milestone }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

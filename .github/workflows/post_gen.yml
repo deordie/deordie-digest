@@ -10,6 +10,7 @@ on:
         description: 'Digest title'
         required: false
         default: ''
+        type: string
 
 jobs:
   create-digest-pr:

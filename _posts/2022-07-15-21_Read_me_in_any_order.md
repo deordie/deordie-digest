@@ -38,7 +38,7 @@ tags: architecture consistency culture databases data-quality education storage-
 
 *This article comes up quite often in Twitter reposts and is definitely worth your attention. It does a very good job of systematising your knowledge of what MLOps are about and it's also easy enough to read.*
 
-![level:medium] ![topic:mlops] ![type:whitepaper]
+![level:medium] ![type:whitepaper] ![topic:mlops]
 
 ---
 

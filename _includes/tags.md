@@ -32,6 +32,7 @@
 [topic:deltalake]: https://img.shields.io/badge/topic-deltalake-E47F10 "topic: Delta Lake"
 [topic:docker]: https://img.shields.io/badge/topic-docker-2A4E17 "topic: Docker"
 [topic:druid]: https://img.shields.io/badge/topic-druid-0E7C47 "topic: Apache Druid" 
+[topic:education]: https://img.shields.io/badge/topic-education-22724A "topic: Education"
 [topic:emr]: https://img.shields.io/badge/topic-emr-B2BAF4 "topic: Amazon EMR"
 [topic:etl]: https://img.shields.io/badge/topic-etl-96DB0E "topic: ETL"
 [topic:flink]: https://img.shields.io/badge/topic-flink-714A49 "topic: Apache Flink"

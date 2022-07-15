@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "#21. Read me in any order"
-tags: architecture consistency culture databases data-quality storage-engine
+tags: architecture consistency culture databases data-quality education storage-engine
 ---
 
-*Topics: Architecture, consistency, culture, databases, data quality, storage engine*
+*Topics: Architecture, consistency, culture, databases, data quality, education, storage engine*
 
 <!--cut-->
 

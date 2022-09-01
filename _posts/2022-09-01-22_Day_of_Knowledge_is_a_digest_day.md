@@ -28,7 +28,7 @@ tags: architecture consistency culture databases data-quality security storage-e
 
 [Data Mesh / Data Product Security Pattern](https://towardsdatascience.com/data-mesh-data-product-security-pattern-c5b93a27e82e) — Eric Broda
 
-*Not bad intro article to first meet with data security. It's more about the structurization of concepts.*
+*Good intro article to data security. It's more about the structurization of concepts.*
 
 ![level:medium] ![topic:architecture] ![topic:security]
 

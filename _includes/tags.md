@@ -53,6 +53,7 @@
 [topic:presto]: https://img.shields.io/badge/topic-presto-5AABB6 "Presto"
 [topic:pulsar]: https://img.shields.io/badge/topic-pulsar-7D340B "topic: Apache Pulsar"
 [topic:python]: https://img.shields.io/badge/topic-python-EE9510 "topic: Python"
+[topic:security]: https://img.shields.io/badge/topic-security-DCC37E "topic: security"
 [topic:spark]: https://img.shields.io/badge/topic-spark-6157A8 "topic: Apache Spark"
 [topic:sqlite]: https://img.shields.io/badge/topic-sqlite-506F34 "topic: SQLite"
 [topic:storage-engine]: https://img.shields.io/badge/topic-storage--engine-0A6531 "topic: storage engine"

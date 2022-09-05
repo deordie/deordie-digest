@@ -57,6 +57,7 @@
 [topic:python]: https://img.shields.io/badge/topic-python-EE9510 "topic: Python"
 [topic:security]: https://img.shields.io/badge/topic-security-DCC37E "topic: security"
 [topic:spark]: https://img.shields.io/badge/topic-spark-6157A8 "topic: Apache Spark"
+[topic:spanner]: https://img.shields.io/badge/topic-spanner-4BBEE8 "topic: Spanner"
 [topic:sqlite]: https://img.shields.io/badge/topic-sqlite-506F34 "topic: SQLite"
 [topic:storage-engine]: https://img.shields.io/badge/topic-storage--engine-0A6531 "topic: storage engine"
 [topic:storage]: https://img.shields.io/badge/topic-storage-F51F63 "topic: storage"

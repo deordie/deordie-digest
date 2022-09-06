@@ -283,6 +283,15 @@ footer {
   text-align: center;
 }
 
+.tag-cloud-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tag-cloud-item:hover {
+  background-color: #2AA198
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

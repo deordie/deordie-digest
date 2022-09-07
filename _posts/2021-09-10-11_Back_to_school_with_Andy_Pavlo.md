@@ -65,4 +65,6 @@ tags: courses databases data-mesh hive kafka practices spark
 - [Kafka Summit](https://www.kafka-summit.org/events/kafka-summit-americas-2021/about), September 14-15
 - [ApacheCon](https://www.apachecon.com/acah2021/), September 21-23 
 
+---
+
 {% include tags.md %}

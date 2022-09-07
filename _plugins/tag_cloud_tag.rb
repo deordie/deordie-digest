@@ -1,4 +1,4 @@
-module Jekyll
+module TagCloudPlugin
   class TagCloudTag < Liquid::Tag
     safe = true
     
@@ -10,9 +10,9 @@ module Jekyll
       html = ''
       topics_frequency = extract_topics_frequency(context.registers[:site].posts)
       font_size_percents = get_topics_font_size_percents(topics_frequency)
-      topics = topics_frequency.keys
+      topics = topics_frequency.keys.sort
       topics.each do |tag|
-        html << "<span class='tag-cloud-item' style='font-size: #{sprintf("%d", font_size_percents[tag])}%'><a href='/tags/#{tag}/'>#{tag}</a></span>\n"
+        html << "<span class='tag-cloud-item' style='font-size: #{sprintf("%d", font_size_percents[tag])}%'><a href='/tags/#{tag}'>#{tag}</a></span>\n"
       end
       html
     end
@@ -56,4 +56,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('tag_cloud', Jekyll::TagCloudTag)
+Liquid::Template.register_tag('tag_cloud', TagCloudPlugin::TagCloudTag)

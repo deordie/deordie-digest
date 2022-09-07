@@ -48,4 +48,6 @@ tags: analytics data-quality debezium kafka late-arriving-data spark streaming s
 
 ![level:medium] ![topic:sqlite] ![topic:analytics]
 
+---
+
 {% include tags.md %}

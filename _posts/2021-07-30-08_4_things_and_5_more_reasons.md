@@ -49,4 +49,6 @@ Also, you may take a look at the [Kroki](https://kroki.io/) tool.*
 
 ![level:beginner] ![topic:architecture] ![topic:tooling]
 
+---
+
 {% include tags.md %}

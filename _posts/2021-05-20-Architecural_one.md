@@ -48,4 +48,6 @@ tags: architecture debezium flink kafka late-arriving-data streaming
 
 ![level:medium] ![type:video] ![topic:architecture]
 
+---
+
 {% include tags.md %}

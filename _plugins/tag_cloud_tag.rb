@@ -21,7 +21,7 @@ module TagCloudPlugin
 
     TOPIC_REGEXP = Regexp.new('topic:([a-z0-9-]+)', Regexp::MULTILINE)
     MIN_FONT_SIZE_PERCENT = 100
-    MAX_FONT_SIZE_PERCENT = 400
+    MAX_FONT_SIZE_PERCENT = 300
 
     def extract_topics_frequency(posts)
       topics = Hash.new(0)

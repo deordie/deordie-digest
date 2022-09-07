@@ -23,3 +23,4 @@ jobs:
           provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: 'gh-pages'
+          cname: 'digest.deordie.org'

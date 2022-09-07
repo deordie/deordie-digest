@@ -19,9 +19,9 @@ module Jekyll
 
     private
 
-    TOPIC_REGEXP = Regexp.new('topic:([a-z0-9]+)', Regexp::MULTILINE)
+    TOPIC_REGEXP = Regexp.new('topic:([a-z0-9-]+)', Regexp::MULTILINE)
     MIN_FONT_SIZE_PERCENT = 100
-    MAX_FONT_SIZE_PERCENT = 500
+    MAX_FONT_SIZE_PERCENT = 400
 
     def extract_topics_frequency(posts)
       topics = Hash.new(0)

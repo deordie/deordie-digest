@@ -50,4 +50,6 @@ Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 
 ![level:medium] ![topic:benchmark] ![topic:tooling]
 
+---
+
 {% include tags.md %}

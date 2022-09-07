@@ -49,4 +49,6 @@ tags: community dbt kafka spark streaming
 
 ![level:beginner] ![topic:kafka]
 
+---
+
 {% include tags.md %}

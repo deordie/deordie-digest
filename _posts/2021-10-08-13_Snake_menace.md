@@ -8,6 +8,8 @@ tags: architecture data-vault python spark storage-engine
 
 <!--cut-->
 
+---
+
 [Best practices for caching in Spark SQL](https://towardsdatascience.com/best-practices-for-caching-in-spark-sql-b22fb0f02d34) — David Vrba @ Towards Data Science Blog.
 
 *Great and understandable article about caching with under the hood explanations and examples. Hope now using the cache will be much easier!*
@@ -48,5 +50,7 @@ tags: architecture data-vault python spark storage-engine
 Thanks to <https://t.me/rockyourdata> community.
 
 ![level:medium] ![topic:architecture] ![topic:data-vault]
+
+---
 
 {% include tags.md %}

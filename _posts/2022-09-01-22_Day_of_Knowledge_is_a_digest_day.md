@@ -55,4 +55,6 @@ tags: architecture consistency culture databases data-quality security storage-e
 - [Data + AI Summit 2022 North America](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l) — Virtual - All Sessions \
     *306 videos. We can't imagine how many hours of content are.*
 
+---
+
 {% include tags.md %}

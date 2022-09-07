@@ -48,4 +48,6 @@ tags: architecture consistency culture databases data-quality education storage-
 
 ![level:advanced] ![topic:spark]
 
+---
+
 {% include tags.md %}

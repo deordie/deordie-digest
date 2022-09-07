@@ -48,4 +48,6 @@ tags: architecture fugue pandas team spark story streaming
 
 ![level:medium] ![topic:architecture] ![topic:team]
 
+---
+
 {% include tags.md %}

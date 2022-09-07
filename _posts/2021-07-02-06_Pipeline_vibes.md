@@ -56,4 +56,6 @@ Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 
 ![level:medium] ![topic:pipelines]
 
+---
+
 {% include tags.md %}

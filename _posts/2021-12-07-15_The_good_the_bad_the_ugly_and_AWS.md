@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "#15. The good, the bad, the ugly, and AWS"
-tags: architecture data-quality data-thoughts aws emr
+tags: architecture databases data-thoughts aws emr
 ---
 
-*Topics: Architecture, data thoughts, databases, AWS, Amazon EMR*
+*Topics: Architecture, databases, data thoughts, AWS, Amazon EMR*
 
 <!--cut-->
 
@@ -47,5 +47,7 @@ tags: architecture data-quality data-thoughts aws emr
 *EMR Serverless is in a public preview now!*
 
 ![level:medium] ![topic:aws] ![topic:emr] 
+
+---
 
 {% include tags.md %}

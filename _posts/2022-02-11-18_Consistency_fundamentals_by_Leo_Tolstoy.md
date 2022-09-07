@@ -49,4 +49,6 @@ Almost all databases claim the consistency model, but this model usually has hol
 
 ![level:medium] ![topic:architecture]
 
+---
+
 {% include tags.md %}

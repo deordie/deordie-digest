@@ -53,9 +53,10 @@ tags: airflow architecture community late-arriving-data storage-engine streaming
 
 ---
 
-
 ### Upcoming conferences
 
 - [Open Source Data Stack Conference](https://www.opensourcedatastack.com/), September 28-30
+
+---
 
 {% include tags.md %}

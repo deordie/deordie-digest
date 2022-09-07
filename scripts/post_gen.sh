@@ -141,6 +141,8 @@ done
 # Generate footer                      #
 ########################################
 cat <<EOF >> "$filename"
+---
+
 {% include tags.md %}
 EOF
 

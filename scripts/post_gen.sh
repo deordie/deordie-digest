@@ -50,7 +50,7 @@ wrap() {
 # Get issues from GitHub               #
 ########################################
 mapfile -t issues < <(gh issue list --state all --json number,milestone --jq ".[] | select(.milestone.number == $MILESTONE) | .number" --repo $REPO | sort -n)
-mapfile -t labels < <(gh issue list --state all --json milestone,labels --jq ".[] | select(.milestone.number == 18) | .labels[].name"  --repo $REPO | sort -u | wrap)
+mapfile -t labels < <(gh issue list --state all --json milestone,labels --jq ".[] | select(.milestone.number == $MILESTONE) | .labels[].name"  --repo $REPO | sort -u | wrap)
 echo "Issues to be added: " "${issues[@]}"
 
 

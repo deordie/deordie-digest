@@ -3,11 +3,6 @@
 [level:medium]: https://img.shields.io/badge/level-medium-blue "level: medium"
 [level:advanced]: https://img.shields.io/badge/level-advanced-blue "level: advanced"
 
-<!--types-->
-[type:course]: https://img.shields.io/badge/type-course-F9F27A "type: course"
-[type:video]: https://img.shields.io/badge/type-video-C21BC6 "type: video"
-[type:whitepaper]: https://img.shields.io/badge/type-whitepaper-900F02 "type: whitepaper"
-
 <!--topics-->
 [topic:airflow]: https://img.shields.io/badge/topic-airflow-F8B4C6 "Apache Airflow"
 [topic:analytics]: https://img.shields.io/badge/topic-analytics-3B10ED "topic: analytics"
@@ -66,3 +61,8 @@
 [topic:team]: https://img.shields.io/badge/topic-team-E0894F "topic: team"
 [topic:tooling]: https://img.shields.io/badge/topic-tooling-F3A385 "topic: tooling"
 [topic:visualization]: https://img.shields.io/badge/topic-visualization-557D5C "topic: visualization"
+
+<!--types-->
+[type:course]: https://img.shields.io/badge/type-course-F9F27A "type: course"
+[type:video]: https://img.shields.io/badge/type-video-C21BC6 "type: video"
+[type:whitepaper]: https://img.shields.io/badge/type-whitepaper-900F02 "type: whitepaper"

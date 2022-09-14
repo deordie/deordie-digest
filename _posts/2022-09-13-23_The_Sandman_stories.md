@@ -22,7 +22,7 @@ tags: architecture data-thoughts spanner streaming
 
 *The authors made a big research on different stream processing systems and their transactional guarantees. You will find a classification of transactional stream processing systems, and tradeoffs in the design of real implementations.*
 
-![level:advanced] ![type:whitepaper] ![topic:streaming]
+![level:advanced] ![topic:streaming] ![type:whitepaper]
 
 ---
 

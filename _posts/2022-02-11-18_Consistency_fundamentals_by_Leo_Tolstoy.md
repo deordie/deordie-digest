@@ -15,7 +15,7 @@ tags: architecture consistency culture databases data-quality storage-engine
 *Kyle Kingsbury is known for his project [jepsen](https://jepsen.io). In this talk, Kyle told about databases lies.  
 Almost all databases claim the consistency model, but this model usually has holes. It is very interesting to know which exactly holes were in which databases.*
 
-![level:advanced] ![type:video] ![topic:consistency] ![topic:databases]
+![level:advanced] ![topic:consistency] ![topic:databases] ![type:video]
 
 ---
 
@@ -39,7 +39,7 @@ Almost all databases claim the consistency model, but this model usually has hol
 
 *In the world of Big Data, it’s important to know how Database Storage works in order to be able to pick the right tool for the job. The talk covers evaluation techniques to choose storage with the best read, write, or best suitable for your data.*
 
-![level:advanced] ![type:video] ![topic:databases] ![topic:storage-engine]
+![level:advanced] ![topic:databases] ![topic:storage-engine] ![type:video]
 
 ---
 

@@ -38,7 +38,7 @@ tags: architecture fugue pandas team spark story streaming
 
 *In this talk, Uber reflects on their journey with scaling Data Infrastructure from 1PB to 10PB to 100PB and beyond while reducing latency from 24 hours to 3h to 1h to 10 minutes. There a lot of details about architecture evolution and instruments. And one important thing, at what point should you think about building a Data Platform.*
 
-![level:medium] ![type:video] ![topic:architecture] ![topic:story]
+![level:medium] ![topic:architecture] ![topic:story] ![type:video]
 
 ---
 

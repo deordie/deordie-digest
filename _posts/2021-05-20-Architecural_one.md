@@ -38,7 +38,7 @@ tags: architecture debezium flink kafka late-arriving-data streaming
 
 *Good overview of Flink, Debezium and how they can work together.*
 
-![level:medium] ![type:video] ![topic:debezium] ![topic:flink] ![topic:streaming]
+![level:medium] ![topic:debezium] ![topic:flink] ![topic:streaming] ![type:video]
 
 ---
 
@@ -46,7 +46,7 @@ tags: architecture debezium flink kafka late-arriving-data streaming
 
 *Use it for single data pipeline architecture ideas. Data parsing, validation, quarantining. Much attention is paid to error handling. With great examples.*
 
-![level:medium] ![type:video] ![topic:architecture]
+![level:medium] ![topic:architecture] ![type:video]
 
 ---
 

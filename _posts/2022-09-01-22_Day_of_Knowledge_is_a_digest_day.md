@@ -22,7 +22,7 @@ tags: architecture consistency culture databases data-quality security storage-e
 
 *Have you heard that S3 didn't deliver the safe and performant operations which the file committers expect? This paper has very deep details on how Spark jobs safely use it as a destination for their work. Additionally, you will learn how exactly was performance and correctness reached in S3A.*
 
-![level:advanced] ![type:whitepaper] ![topic:storage-engine]
+![level:advanced] ![topic:storage-engine] ![type:whitepaper]
 
 ---
 

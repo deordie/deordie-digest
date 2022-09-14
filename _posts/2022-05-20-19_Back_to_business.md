@@ -14,7 +14,7 @@ tags: architecture druid kafka presto storage-engine streaming
 
 *A new white paper from Tyler Akidau (author of the very cool book \"Streaming Systems\") where they compare watermarks in different aspects in Google Cloud Dataflow and Apache Flink. Watermarks represent the temporal completeness of an out-of-order data stream. Reasoning about the completeness of infinite streams is one of the most critical challenges faced by stream processing systems. It’s also one of the least understood and least adequately addressed compared to other approaches for dealing with the completeness of unbounded data streams.*
 
-![level:advanced] ![type:whitepaper] ![topic:streaming]
+![level:advanced] ![topic:streaming] ![type:whitepaper]
 
 ---
 

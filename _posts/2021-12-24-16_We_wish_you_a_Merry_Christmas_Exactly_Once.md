@@ -22,7 +22,7 @@ tags: airflow architecture data-lineage data-mesh kafka spark
 
 *Beneficial webinar about how to implement data lineage with Marquez and Airflow. With real examples, not only theory!*
 
-![level:medium] ![type:video] ![topic:airflow] ![topic:data-lineage]
+![level:medium] ![topic:airflow] ![topic:data-lineage] ![type:video]
 
 ---
 

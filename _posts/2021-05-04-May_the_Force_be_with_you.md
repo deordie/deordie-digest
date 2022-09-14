@@ -30,7 +30,7 @@ tags: cost-management data-quality etl flink iceberg kafka kubernetes streaming
 
 *Bird's eye Netflix data processing architecture overview. The interesting part is how they work with schema changes separately from the data.*
 
-![level:beginner] ![type:video] ![topic:iceberg]
+![level:beginner] ![topic:iceberg] ![type:video]
 
 ---
 

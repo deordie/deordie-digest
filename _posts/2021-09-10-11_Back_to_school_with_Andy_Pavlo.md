@@ -24,7 +24,7 @@ tags: courses databases data-mesh hive kafka practices spark
 
 *PS: Here is a more than 1000 pages [book](https://www.amazon.com/Database-Concepts-Abraham-Silberschatz-Professor/dp/0078022150/ref=sr_1_2?dchild=1&keywords=Database+System+Concepts&qid=1631283019&s=books&sr=1-2) which Andy recommended.*
 
-![level:medium] ![type:course] ![type:video] ![topic:databases]
+![level:medium] ![topic:databases] ![type:course] ![type:video]
 
 ---
 

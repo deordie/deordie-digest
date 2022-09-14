@@ -48,7 +48,7 @@ Thanks to [@xnegxneg](https://t.me/xnegxneg) for this topic.
 
 *In this whitepaper, the amazon research team presents a system for automating data quality verification at scale and discusses their design decisions, describing the resulting system architecture and giving an experimental evaluation on various datasets.*
 
-![level:advanced] ![type:whitepaper] ![topic:data-quality] 
+![level:advanced] ![topic:data-quality] ![type:whitepaper] 
 
 ---
 

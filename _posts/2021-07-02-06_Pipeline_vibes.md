@@ -22,7 +22,7 @@ tags: dagster data-quality kafka late-arriving-data pipelines
 
 Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 
-![level:medium] ![type:video] ![topic:data-quality]
+![level:medium] ![topic:data-quality] ![type:video]
 
 ---
 
@@ -46,7 +46,7 @@ Thanks to [@SimonOsipov](https://twitter.com/OsipovSimon) for this topic.
 
 *29 article pages about out-of-order data arrival. This topic will be burned into your mind. If no, read the references, too.*
 
-![level:advanced] ![type:whitepaper] ![topic:late-arriving-data]
+![level:advanced] ![topic:late-arriving-data] ![type:whitepaper]
 
 ---
 

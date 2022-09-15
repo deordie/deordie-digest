@@ -8,8 +8,7 @@ on:
         type: string
       title:
         description: 'Digest title'
-        required: false
-        default: ''
+        required: true
         type: string
 
 jobs:
@@ -28,9 +27,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
-          commit-message: Add digest ${{ inputs.milestone }}
+          commit-message: 'feat: Add digest ${{ inputs.milestone }}'
           title: Add digest ${{ inputs.milestone }}
           body: Auto-generated digest ${{ inputs.milestone }}
           branch: digest-${{ inputs.milestone }}
-          milestone: ${{ inputs.milestone }}
           delete-branch: true

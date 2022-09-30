@@ -18,6 +18,7 @@
 [topic:data-lake]: https://img.shields.io/badge/topic-data--lake-CE295A "topic: data lake"
 [topic:data-lineage]: https://img.shields.io/badge/topic-data--lineage-8CE67B "topic: data lineage"
 [topic:data-mesh]: https://img.shields.io/badge/topic-data--mesh-23DB1D "topic: data mesh"
+[topic:data-modeling]: https://img.shields.io/badge/topic-data--modeling-F77A67 "topic: data modeling"
 [topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708 "topic: data quality"
 [topic:data-thoughts]: https://img.shields.io/badge/topic-data--thoughts-3AC9BA "topic: data thoughts"
 [topic:data-vault]: https://img.shields.io/badge/topic-data--vault-1EB10F "topic: data vault"

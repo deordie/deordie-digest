@@ -14,7 +14,7 @@
 [topic:cost-management]: https://img.shields.io/badge/topic-cost--management-5AC955 "topic: cost management"
 [topic:culture]: https://img.shields.io/badge/topic-culture-07D20A "topic: culture"
 [topic:dagster]: https://img.shields.io/badge/topic-dagster-29197D "topic: Dagster"
-[topic:data-governance]: https://img.shields.io/badge/topic-topic:data--governance-90B373 "topic: data governance"
+[topic:data-governance]: https://img.shields.io/badge/topic-data--governance-90B373 "topic: data governance"
 [topic:data-lake]: https://img.shields.io/badge/topic-data--lake-CE295A "topic: data lake"
 [topic:data-lineage]: https://img.shields.io/badge/topic-data--lineage-8CE67B "topic: data lineage"
 [topic:data-mesh]: https://img.shields.io/badge/topic-data--mesh-23DB1D "topic: data mesh"

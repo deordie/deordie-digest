@@ -7,6 +7,7 @@
 [topic:airflow]: https://img.shields.io/badge/topic-airflow-F8B4C6 "Apache Airflow"
 [topic:analytics]: https://img.shields.io/badge/topic-analytics-3B10ED "topic: analytics"
 [topic:architecture]: https://img.shields.io/badge/topic-architecture-260C3B "topic: architecture"
+[topic:arrow]: https://img.shields.io/badge/topic-arrow-641603 "topic: Apache Arrow"
 [topic:aws]: https://img.shields.io/badge/topic-aws-D93F0B "topic: AWS"
 [topic:benchmark]: https://img.shields.io/badge/topic-benchmark-073151 "topic: benchmark"
 [topic:community]: https://img.shields.io/badge/topic-community-33782C "topic: community"

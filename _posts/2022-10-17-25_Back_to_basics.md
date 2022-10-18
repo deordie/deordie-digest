@@ -52,6 +52,11 @@ tags: arrow culture data-lineage data-warehouse kafka
 
 ### Conferences
 
+- [Smart Data 2022](https://smartdataconf.ru/) on October 17-18 (online) and 29th (offline + online), 2022.
+  
+    *SmartData is a data engineering conference. It’s full of tech talks related to all the topics that are important for a data engineer, ranging from reliability to MLOps. The conference is held by JUG Ru Group. \
+    Do not miss the Community Day. Get the free ticket for the last day (18th) of Online conference.*
+
 - [Trino Summit](https://www.starburst.io/info/trinosummit/) on November 10th, 2022.
 
     *Trino Summit is an event that convenes engineers, analysts, and superfans of the Trino project. This year, Trino Summit will be hosted as a hybrid event at the Commonwealth Club in San Francisco, CA on November 10th. For those who may not have heard, Trino is the new moniker for the project formerly known as PrestoSQL. We are thrilled to pull together the Trino community again to share our experiences, meet with professionals in the big data and analytics space, and grow your skills and learn about new possibilities.*

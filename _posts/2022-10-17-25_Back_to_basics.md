@@ -10,7 +10,7 @@ tags: arrow culture data-lineage data-warehouse kafka
 
 ---
 
-[From Eager to Smarter in Apache Kafka Consumer Rebalances](https://www.confluent.io/blog/cooperative-rebalancing-in-kafka-streams-consumer-ksqldb/) — From Eager to Smarter in Apache Kafka Consumer Rebalances
+[From Eager to Smarter in Apache Kafka Consumer Rebalances](https://www.confluent.io/blog/cooperative-rebalancing-in-kafka-streams-consumer-ksqldb/) — Sophie Blee-Goldman @ Confluent Blog.
 
 *We continue the Kafka topic. New rebalancing protocol from consumer client perspective.*
 

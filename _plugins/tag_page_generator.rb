@@ -41,7 +41,7 @@ module TagCloudPlugin
       posts.each do |post|
         post_articles = post.content
           .split(/---/)
-          .select { |article| article.match?(/topic:#{ @tag }/) }
+          .select { |article| article.match?(/\[topic:#{ @tag }\]/) }
         articles.push(*post_articles) 
       end
       articles

@@ -63,6 +63,7 @@
 [topic:story]: https://img.shields.io/badge/topic-story-62A6B1 "topic: story"
 [topic:streaming]: https://img.shields.io/badge/topic-streaming-F15A02 "topic: streaming"
 [topic:team]: https://img.shields.io/badge/topic-team-E0894F "topic: team"
+[topic:testing]: https://img.shields.io/badge/topic-testing-0CEBF1 "topic: testing"
 [topic:tooling]: https://img.shields.io/badge/topic-tooling-F3A385 "topic: tooling"
 [topic:visualization]: https://img.shields.io/badge/topic-visualization-557D5C "topic: visualization"
 

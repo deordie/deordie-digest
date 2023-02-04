@@ -4,7 +4,7 @@ title: "#27. New Year with a New Database"
 tags: airflow benchmark databases data-thoughts gcp spanner storage testing
 ---
 
-*Topics: [topic:airflow]: https://img.shields.io/badge/topic-airflow-F8B4C6 Apache Airflow", benchmark, databases, data thoughts, GCP, Spanner, storage, *
+*Topics: Apache Airflow, benchmark, databases, data thoughts, GCP, Spanner, storage, testing*
 
 <!--cut-->
 

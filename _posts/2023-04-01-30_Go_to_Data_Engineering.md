@@ -10,11 +10,11 @@ tags: databases data-thoughts practices spark streaming
 
 ---
 
-[Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg) — Rob Pike
+[Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg) ([slides](https://go.dev/talks/2012/waza.slide)) — Rob Pike
 
 *Rob Pike is a software engineer, best known for his work on the Go programming language. Quite old but still relevant talk discussing the crucial distinctions between concurrency and parallelism. Such foundational engineering concepts are cross disciplines and I would say must-have knowledge for all engineers.*
 
-![level:medium] ![topic:practices]
+![level:medium] ![topic:practices] ![type:video]
 
 ---
 

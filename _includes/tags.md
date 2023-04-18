@@ -29,6 +29,7 @@
 [topic:dbt]: https://img.shields.io/badge/topic-dbt-D0FAB0 "topic: dbt"
 [topic:debezium]: https://img.shields.io/badge/topic-debezium-C2E0C6 "topic: Debezium"
 [topic:deltalake]: https://img.shields.io/badge/topic-deltalake-E47F10 "topic: Delta Lake"
+[topic:distributed-systems]: https://img.shields.io/badge/topic-distributed--systems-CE3DAE "topic: distributed systems"
 [topic:docker]: https://img.shields.io/badge/topic-docker-2A4E17 "topic: Docker"
 [topic:druid]: https://img.shields.io/badge/topic-druid-0E7C47 "topic: Apache Druid" 
 [topic:education]: https://img.shields.io/badge/topic-education-22724A "topic: education"

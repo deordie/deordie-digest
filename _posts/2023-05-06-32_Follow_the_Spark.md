@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "#32. Follow the Spark"
-tags: architecture databases spark
+tags: architecture databases spark practices
 ---
 
-*Topics: Architecture, databases, Apache Spark*
+*Topics: Architecture, databases, Apache Spark, practices*
 
 <!--cut-->
 
@@ -23,7 +23,7 @@ tags: architecture databases spark
 
 *What layer do you focus on when creating data architecture? If it's not Raw, then this article is for you. 5 points that will save your time n future.*
 
-![level:medium] ![topic:architecture]
+![level:medium] ![topic:architecture] ![topic:practices]
 
 ---
 

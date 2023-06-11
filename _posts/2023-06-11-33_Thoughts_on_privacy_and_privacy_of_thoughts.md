@@ -20,7 +20,7 @@ tags: architecture databases data-mesh data-privacy data-thoughts storage-engine
 
 [Data Mesh in practice: Product thinking and development (Part III)](https://www.thoughtworks.com/insights/articles/data-mesh-in-practice-product-thinking-and-development) — Ammara Gafoor, Ian Murdoch, Kiran Prakash @ Thoughtworks Blog
 
-*There are 4 articles in this series, but I want to share this one with you because Data Product itself is closer to data engineers (from my point of view). But we're often not aware of what it truly is and how is it built. So let's to fill this gap.*
+*There are 4 articles in this series, but I want to share this one with you because Data Product itself is closer to data engineers (from my point of view). But we're often not aware of what it truly is and how is it built. So let's fill the gap.*
 
 *Other articles in the series: [Part I](https://www.thoughtworks.com/insights/articles/data-mesh-in-practice-getting-off-to-the-right-start), [Part II](https://www.thoughtworks.com/insights/articles/data-mesh-in-practice-organizational-operating-model), [Part IV](https://www.thoughtworks.com/insights/articles/data-mesh-in-practice-technology-and-the-architecture).*
 

@@ -21,6 +21,7 @@
 [topic:data-lineage]: https://img.shields.io/badge/topic-data--lineage-8CE67B "topic: data lineage"
 [topic:data-mesh]: https://img.shields.io/badge/topic-data--mesh-23DB1D "topic: data mesh"
 [topic:data-modeling]: https://img.shields.io/badge/topic-data--modeling-F77A67 "topic: data modeling"
+[topic:data-platform]: https://img.shields.io/badge/topic-data--platform-506074 "topic: data platform"
 [topic:data-privacy]: https://img.shields.io/badge/topic-data--privacy-C38794 "topic: data privacy"
 [topic:data-quality]: https://img.shields.io/badge/topic-data--quality-D0E708 "topic: data quality"
 [topic:data-thoughts]: https://img.shields.io/badge/topic-data--thoughts-3AC9BA "topic: data thoughts"

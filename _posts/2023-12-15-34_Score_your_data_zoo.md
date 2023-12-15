@@ -38,7 +38,7 @@ tags: architecture consistency data-modeling data-platform data-quality streamin
 
 *If you're writing a Data Platform in your company, there are not too many insights here. But at least one is guaranteed: how the Data Platform's UI can look.*
 
-![topic:data-platform] ![topic:streaming]
+![level:medium] ![topic:data-platform] ![topic:streaming]
 
 ---
 
@@ -46,7 +46,7 @@ tags: architecture consistency data-modeling data-platform data-quality streamin
 
 *Absolutely brilliant approach of identifying data quality for all company data assets. Quite realistic approach.*
 
-![topic:data-quality]
+![level:advanced] ![topic:data-quality]
 
 ---
 

@@ -14,14 +14,3 @@ YouTube channel: <https://www.youtube.com/c/deordie>
 
 This repository is a community-driven Data Engineering digest. You may submit interesting materials (blog posts/papers/talks) to [issue tracker](https://github.com/deordie/deordie-digest/issues).  
 Please, add a short review to your materials. Your personal opinion and essential knowledge extracted from the material is a very important thing. We want to share the most valuable materials with the community. Also, you may vote for the most interesting materials from other contributors.
-
-## Our partners
-
-[![dp_logo]][dp_link]
-&emsp;&emsp;&emsp;
-[![jb_logo]][jb_link]
-
-[dp_link]: https://dodopizza.dev/ "Dodo Pizza Engineering"
-[dp_logo]: https://user-images.githubusercontent.com/408149/113920289-407e6280-97ed-11eb-8de8-775148b9eca4.png "Dodo Pizza Engineering"
-[jb_link]: https://www.jetbrains.com/ "JetBrains"
-[jb_logo]: https://user-images.githubusercontent.com/408149/113920485-81767700-97ed-11eb-8883-2096fc9873ed.png "JetBrains"

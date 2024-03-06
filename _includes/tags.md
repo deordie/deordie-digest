@@ -53,6 +53,7 @@
 [topic:monitoring]: https://img.shields.io/badge/topic-monitoring-CC0A65 "topic: monitoring"
 [topic:pandas]: https://img.shields.io/badge/topic-pandas-F28328 "topic: Pandas"
 [topic:pipelines]: https://img.shields.io/badge/topic-pipelines-92A87F "topic: pipelines"
+[topic:postgresql]: https://img.shields.io/badge/topic-postgresql-99BADF "topic: PostgreSQL"
 [topic:practices]: https://img.shields.io/badge/topic-practices-7AC6AA "topic: practices"
 [topic:presto]: https://img.shields.io/badge/topic-presto-5AABB6 "Presto"
 [topic:pulsar]: https://img.shields.io/badge/topic-pulsar-7D340B "topic: Apache Pulsar"

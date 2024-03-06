@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#26. Pandora's box – DE or DIE: Digest – Data Engineering Digest</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Topics: Architecture, Amazon Athena, AWS, data modeling, Docker, Git, Apache Kafka, storage, storage engine
+
+" />
+    <meta property="og:description" content="Topics: Architecture, Amazon Athena, AWS, data modeling, Docker, Git, Apache Kafka, storage, storage engine
+
+" />
+    
+    <meta name="author" content="DE or DIE: Digest" />
+
+    
+    <meta property="og:title" content="#26. Pandora's box" />
+    <meta property="twitter:title" content="#26. Pandora's box" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="DE or DIE: Digest - Data Engineering Digest" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://user-images.githubusercontent.com/408149/113920628-af5bbb80-97ed-11eb-91df-523cf5d27254.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">DE or DIE: Digest</a></h1>
+            <p class="site-description">Data Engineering Digest</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/tag-cloud">Tag cloud</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>#26. Pandora's box</h1>
+
+  <div class="entry">
+    <p><em>Topics: Architecture, Amazon Athena, AWS, data modeling, Docker, Git, Apache Kafka, storage, storage engine</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://www.confluent.io/blog/incremental-cooperative-rebalancing-in-kafka/">Incremental Cooperative Rebalancing in Apache Kafka: Why Stop the World When You Can Change It?</a> — Konstantine Karantasis @ Confluent Blog.</p>
+
+<p><em>Kafka rebalancing again. What is the difference between eager and incremental cooperative rebalancing protocol? What are the problems which had to implement a new one?  How is it works on high-level abstraction?<br />
+Additionally, you can go through <a href="https://cwiki.apache.org/confluence/display/KAFKA/KIP-415%3A+Incremental+Cooperative+Rebalancing+in+Kafka+Connect">KIP</a> to understand the problem even deeper.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-kafka-CB9EB8" alt="topic:kafka" title="topic: Apache Kafka" /></p>
+
+<hr />
+
+<p><strong>Git’s database internals</strong> — Derrick Stolee @ GitHub Blog.</p>
+
+<ol>
+  <li><a href="https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/">Packed object store</a></li>
+  <li><a href="https://github.blog/2022-08-30-gits-database-internals-ii-commit-history-queries/">Commit history queries</a></li>
+  <li><a href="https://github.blog/2022-08-31-gits-database-internals-iii-file-history-queries/">File history queries</a></li>
+  <li><a href="https://github.blog/2022-09-01-gits-database-internals-iv-distributed-synchronization/">Distributed synchronization</a></li>
+  <li><a href="https://github.blog/2022-09-02-gits-database-internals-v-scalability">Scalability</a></li>
+</ol>
+
+<p><em>5 part series to look at Git’s internals from the perspective of a database.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /> <img src="https://img.shields.io/badge/topic-git-B60205" alt="topic:git" title="topic: Git" /> <img src="https://img.shields.io/badge/topic-storage-F51F63" alt="topic:storage" title="topic: storage" /></p>
+
+<hr />
+
+<p><a href="https://aws.amazon.com/ru/blogs/big-data/improve-federated-queries-with-predicate-pushdown-in-amazon-athena/">Improve federated queries with predicate pushdown in Amazon Athena</a> — AWS Big Data Blog</p>
+
+<p><em>Let’s talk about query optimization in Athena, especially about predicate pushdown under different databases.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-athena-C2E6C5" alt="topic:athena" title="topic: Amazon Athena" /> <img src="https://img.shields.io/badge/topic-aws-D93F0B" alt="topic:aws" title="topic: AWS" /> <img src="https://img.shields.io/badge/topic-docker-2A4E17" alt="topic:docker" title="topic: Docker" /> <img src="https://img.shields.io/badge/topic-storage--engine-0A6531" alt="topic:storage-engine" title="topic: storage engine" /></p>
+
+<hr />
+
+<p><a href="https://medium.com/airbnb-engineering/mussel-airbnbs-key-value-store-for-derived-data-406b9fa1b296">Mussel — Airbnb’s Key-Value Store for Derived Data</a> — The Airbnb Tech Blog</p>
+
+<p><em>It’s AirBnb time to make their own database. Meet persistent, high availability and low latency key-value storage engine for accessing derived data from offline and streaming events.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-storage--engine-0A6531" alt="topic:storage-engine" title="topic: storage engine" /></p>
+
+<hr />
+
+<p><a href="https://www.youtube.com/watch?v=RNMoWnSWcTo&amp;ab_channel=AdvancingAnalytics">Behind the Hype: Should you ever build a Data Vault in a Lakehouse?</a> — 
+Simon Whiteley @ Advancing Analytics Channel</p>
+
+<p><em>The most expressive talk about Data Vault. And yes, we definitely like Simon :)</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--modeling-F77A67" alt="topic:data-modeling" title="topic: data modeling" /> <img src="https://img.shields.io/badge/type-video-C21BC6" alt="type:video" title="type: video" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->
+
+
+  </div>
+
+  <div class="date">
+    Written on November  4, 2022
+  </div>
+
+  
+  <script type="text/javascript">
+      window.addEventListener('DOMContentLoaded', function (event)  {
+        document.querySelectorAll("a").forEach((a) => {
+          a.addEventListener("click", (event) => {
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+              ga('send', {
+              'hitType': 'event',
+              'eventCategory': 'articles',
+              'eventAction': 'click',
+              'eventLabel':  a.textContent});
+          });
+        })
+      });
+  </script>
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:digest@deordie.org"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/deordie/deordie-digest"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+<a href="https://www.twitter.com/_deordie"><i class="svg-icon twitter"></i></a>
+
+<a href="https://youtube.com/channel/UCu1wzyJM_oBAaqX7T22ZsZg"><i class="svg-icon youtube"></i></a>
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-196588307-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/26_Pandoras_box/',
+		  'title': '#26. Pandora\'s box'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>

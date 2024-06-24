@@ -100,7 +100,6 @@ tags: ${post_tags[*]}
 
 EOF
 
-
 ########################################
 # Generate body                        #
 ########################################
@@ -110,7 +109,8 @@ for number in "${issues[@]}"; do
     issue=$(gh issue view "$number" --json title,body,labels --repo $REPO)
 
     raw_title=$(echo "$issue" | jq -r ".title")
-    raw_body=$(echo "$issue" | jq ".body" | sed "s/\\\r//g" | sed "s/\\\n/|/g")
+
+    raw_body=$(echo "$issue" | jq ".body" | sed "s/\\\r//g" | sed "s/\\\n/|/g" | sed "s/__Created by:__ DE or DIE Bot.*//g")
     raw_body=${raw_body:1}
     raw_body=${raw_body%?}
 

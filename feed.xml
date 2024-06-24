@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://deordie.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://deordie.org//" rel="alternate" type="text/html" /><updated>2024-06-24T19:46:58+00:00</updated><id>https://deordie.org//feed.xml</id><title type="html">DE or DIE</title><subtitle>Data Engineering Digest</subtitle><entry><title type="html">#36. A few moments later</title><link href="https://deordie.org//36_A_few_moments_later/" rel="alternate" type="text/html" title="#36. A few moments later" /><published>2024-06-24T00:00:00+00:00</published><updated>2024-06-24T00:00:00+00:00</updated><id>https://deordie.org//36_A_few_moments_later</id><content type="html" xml:base="https://deordie.org//36_A_few_moments_later/"><![CDATA[<p><em>Topics: Architecture, data quality, dbt, Apache Spark, streaming</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://www.databricks.com/blog/simplify-pyspark-testing-dataframe-equality-functions">Simplify PySpark testing with DataFrame equality functions</a> — Haejoon Lee, Allison Wang and Amanda Liu @ Databricks Engineering Blog</p>
+
+<p><em>Finally we have PySpark functions for testing! Starting from Spark 3.5. No more additional libraries for testing. Or, maybe…</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-spark-6157A8" alt="topic:spark" title="topic: Apache Spark" /></p>
+
+<hr />
+
+<p><a href="https://youtu.be/Lv-bFDSzrqw?si=7ie3Nj4YXfyvCEDn">Data Quality Score: How We Evolved the Data Quality Strategy at Airbnb</a> — Clark Wright @ Netflix Data Engineering Open Forum 2024</p>
+
+<p><em><a href="https://digest.deordie.org/34_Score_your_data_zoo/">Some time ago</a>, we published an article from AirBnb about the Data Quality framework that they had built. Now, you may watch the video for more details. Inspired by the level of platform solutions that they’re building.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--quality-D0E708" alt="topic:data-quality" title="topic: data quality" /> <img src="https://img.shields.io/badge/type-video-C21BC6" alt="type:video" title="type: video" /></p>
+
+<hr />
+
+<p><a href="https://www.phdata.io/blog/accelerating-and-scaling-dbt-for-the-enterprise/">Accelerating and Scaling dbt for the Enterprise</a> — Dakota Kelley @ phData blog</p>
+
+<p><em>This article highlights problems that you have to solve when preparing DBT as part of the Platform in your organization.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-dbt-D0FAB0" alt="topic:dbt" title="topic: dbt" /></p>
+
+<hr />
+
+<p><a href="https://developer.confluent.io/courses/event-design/intro/">Course Events and Event Streaming</a> — Adam Bellemare @ Confluent Developer</p>
+
+<p><em>If you, as a data engineer, have discussions about proper event modeling in your company, then this video course is for you (and for your software engineers).</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-streaming-F15A02" alt="topic:streaming" title="topic: streaming" /> <img src="https://img.shields.io/badge/type-video-C21BC6" alt="type:video" title="type: video" /></p>
+
+<hr />
+
+<p><a href="https://www.infoq.com/articles/architecture-trends-2024">InfoQ Software Architecture and Design Trends Report - April 2024</a> — InfoQ</p>
+
+<p><em>Have you already heard about architecture as a team sport? About cell-based architecture? Review the latest innovations and trends in the design trends report.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="architecture" /><category term="data-quality" /><category term="dbt" /><category term="spark" /><category term="streaming" /><summary type="html"><![CDATA[Topics: Architecture, data quality, dbt, Apache Spark, streaming]]></summary></entry><entry><title type="html">#35. Get your data just-in-time</title><link href="https://deordie.org//35_Get_your_data_just-in-time/" rel="alternate" type="text/html" title="#35. Get your data just-in-time" /><published>2024-03-06T00:00:00+00:00</published><updated>2024-03-06T00:00:00+00:00</updated><id>https://deordie.org//35_Get_your_data_just-in-time</id><content type="html" xml:base="https://deordie.org//35_Get_your_data_just-in-time/"><![CDATA[<p><em>Topics: Architecture, data mesh, data warehouse, Delta Lake, PostgreSQL, Python</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://www.databricks.com/blog/seamlessly-migrate-your-apache-parquet-data-lake-delta-lake">Seamlessly Migrate Your Apache Parquet Data Lake to Delta Lake</a> — Dipankar Kushari, Uday Satapathy @ Databricks Engineering Blog</p>
+
+<p><em>Databricks is a company behind the Delta Lake format. The paper explains some drawbacks of building a data lake using Apache Parquet and explains how Delta Lake can solve such problems and how to migrate.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-deltalake-E47F10" alt="topic:deltalake" title="topic: Delta Lake" /></p>
+
+<hr />
+
+<p><a href="https://engineering.fb.com/2023/12/19/core-infra/how-meta-built-the-infrastructure-for-threads/">How Meta built the infrastructure for Threads</a> — Laine Campbell, Chunqiang (CQ) Tang @ Engineering at Meta</p>
+
+<p><em>It’s always interesting to read/watch real system’s design with explanation. Especially when you are trying to design them in mind.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /></p>
+
+<hr />
+
+<p><a href="https://tonybaloney.github.io/posts/python-gets-a-jit.html">Python 3.13 gets a JIT</a> — Anthony Shaw</p>
+
+<p><em>It’s not only data engineering, but probably will change the whole development landscape: Python gets JIT, which opens a door to massive performance improvements in future!</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-python-EE9510" alt="topic:python" title="topic: Python" /></p>
+
+<hr />
+
+<p><a href="https://tembo.io/blog/tembo-data-warehouse">How we built our customer data warehouse all on Postgres</a> — Adam Hendel @ Tembo</p>
+
+<p><em>Very interesting experience of usage of Postgres as a warehouse. I’m saying not only about storage, but the whole system including orchestration 🤯. Of course authors had to write some code in Rust, but the concept looks very interesting and maybe even promising.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--warehouse-828FF4" alt="topic:data-warehouse" title="topic: data warehouse" /> <img src="https://img.shields.io/badge/topic-postgresql-99BADF" alt="topic:postgresql" title="topic: PostgreSQL" /></p>
+
+<hr />
+
+<p><a href="https://towardsdatascience.com/data-domains-where-do-i-start-a6d52fef95d1">Data Domains — Where do I start?</a> — Piethein Strengholt</p>
+
+<p><em>Good and practical article about data domains. Not only from a data team perspective but also from a development perspective.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /> <img src="https://img.shields.io/badge/topic-data--mesh-23DB1D" alt="topic:data-mesh" title="topic: data mesh" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="architecture" /><category term="data-mesh" /><category term="data-warehouse" /><category term="deltalake" /><category term="postgresql" /><category term="python" /><summary type="html"><![CDATA[Topics: Architecture, data mesh, data warehouse, Delta Lake, PostgreSQL, Python]]></summary></entry><entry><title type="html">#34. Score your data zoo</title><link href="https://deordie.org//34_Score_your_data_zoo/" rel="alternate" type="text/html" title="#34. Score your data zoo" /><published>2023-12-15T00:00:00+00:00</published><updated>2023-12-15T00:00:00+00:00</updated><id>https://deordie.org//34_Score_your_data_zoo</id><content type="html" xml:base="https://deordie.org//34_Score_your_data_zoo/"><![CDATA[<p><em>Topics: Architecture, consistency, data modeling, data platform, data quality, streaming</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://joereis.substack.com/p/is-kimball-still-relevant">Is Kimball Still Relevant?</a> — Joe Reis Blog</p>
+
+<p><em>Quite a vital question! Links inside the post also have vital questions. If you’re thinking of dropping a detailed layer on DWH, you should read it.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--modeling-F77A67" alt="topic:data-modeling" title="topic: data modeling" /></p>
+
+<hr />
+
+<p><a href="https://learningdaily.dev/the-zoo-of-consistency-models-b6f9b9e9503e">The Zoo of Consistency Models</a> — The Educative Team</p>
+
+<p><em>Consistency models are something that you have constantly refresh in your memory.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-consistency-F3D86D" alt="topic:consistency" title="topic: consistency" /></p>
+
+<hr />
+
+<p><a href="https://www.alibabacloud.com/blog/seven-principles-of-cloud-native-architecture_598431">Seven Principles of Cloud-Native Architecture</a> — Alibaba Cloud Native Community Blog</p>
+
+<p><em>Clear explanation of cloud-native architecture principles.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /></p>
+
+<hr />
+
+<p><a href="https://netflixtechblog.com/streaming-sql-in-data-mesh-0d83f5a00d08">Streaming SQL in Data Mesh</a> — Netflix Blog</p>
+
+<p><em>If you’re writing a Data Platform in your company, there are not too many insights here. But at least one is guaranteed: how the Data Platform’s UI can look.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--platform-506074" alt="topic:data-platform" title="topic: data platform" /> <img src="https://img.shields.io/badge/topic-streaming-F15A02" alt="topic:streaming" title="topic: streaming" /></p>
+
+<hr />
+
+<p><a href="https://medium.com/airbnb-engineering/data-quality-score-the-next-chapter-of-data-quality-at-airbnb-851dccda19c3">Data Quality Score: The next chapter of data quality at Airbnb</a> — Airbnb blog</p>
+
+<p><em>Absolutely brilliant approach of identifying data quality for all company data assets. Quite realistic approach.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-data--quality-D0E708" alt="topic:data-quality" title="topic: data quality" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="architecture" /><category term="consistency" /><category term="data-modeling" /><category term="data-platform" /><category term="data-quality" /><category term="streaming" /><summary type="html"><![CDATA[Topics: Architecture, consistency, data modeling, data platform, data quality, streaming]]></summary></entry><entry><title type="html">#33. Thoughts on privacy and privacy of thoughts</title><link href="https://deordie.org//33_Thoughts_on_privacy_and_privacy_of_thoughts/" rel="alternate" type="text/html" title="#33. Thoughts on privacy and privacy of thoughts" /><published>2023-06-11T00:00:00+00:00</published><updated>2023-06-11T00:00:00+00:00</updated><id>https://deordie.org//33_Thoughts_on_privacy_and_privacy_of_thoughts</id><content type="html" xml:base="https://deordie.org//33_Thoughts_on_privacy_and_privacy_of_thoughts/"><![CDATA[<p><em>Topics: Architecture, databases, data mesh, data privacy, data thoughts, storage engine</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://www.querifylabs.com/blog/dynamic-filtering-in-analytical-engines">Dynamic Filtering: a Critical Performance Optimization in Analytical Engines</a> — Vladimir Ozerov @ Querify Labs Blog</p>
+
+<p><em>Let’s continue getting acquainted with the query engine optimization techniques with developers of these query engines. Now it’s dynamic filtering time.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-storage--engine-0A6531" alt="topic:storage-engine" title="topic: storage engine" /></p>
+
+<hr />
+
+<p><a href="https://www.thoughtworks.com/insights/articles/data-mesh-in-practice-product-thinking-and-development">Data Mesh in practice: Product thinking and development (Part III)</a> — Ammara Gafoor, Ian Murdoch, Kiran Prakash @ Thoughtworks Blog</p>
+
+<p><em>There are 4 articles in this series, but I want to share this one with you because Data Product itself is closer to data engineers (from my point of view). But we’re often not aware of what it truly is and how is it built. So let’s fill the gap.</em></p>
+
+<p><em>Other articles in the series: <a href="https://www.thoughtworks.com/insights/articles/data-mesh-in-practice-getting-off-to-the-right-start">Part I</a>, <a href="https://www.thoughtworks.com/insights/articles/data-mesh-in-practice-organizational-operating-model">Part II</a>, <a href="https://www.thoughtworks.com/insights/articles/data-mesh-in-practice-technology-and-the-architecture">Part IV</a>.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--mesh-23DB1D" alt="topic:data-mesh" title="topic: data mesh" /> <img src="https://img.shields.io/badge/topic-data--thoughts-3AC9BA" alt="topic:data-thoughts" title="topic: data thoughts" /></p>
+
+<hr />
+
+<p><a href="https://martinfowler.com/articles/intro-pet.html">Privacy Enhancing Technologies: An Introduction for Technologists</a> — Katharine Jarmul</p>
+
+<p><em>A new article about Privacy Enhancing Technologies (PETs) in Martin Fowler’s blog. In the era of systems like ChatGPT or Stable Diffusion personal data privacy is especially important. This article is a great intro to PETs and provides some use cases on how to protect your data in the modern world.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-data--privacy-C38794" alt="topic:data-privacy" title="topic: data privacy" /></p>
+
+<hr />
+
+<p><a href="https://lakefs.io/blog/the-state-of-data-engineering-2023/#h-observability">The State of Data Engineering 2023</a> — Einat Orr @ lakeFS blog</p>
+
+<p><em>It’s time to reveal new State of Data Engineering with lakeFS!</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-data--thoughts-3AC9BA" alt="topic:data-thoughts" title="topic: data thoughts" /></p>
+
+<hr />
+
+<p><a href="https://www.uber.com/en-US/blog/postgres-to-mysql-migration/">Why Uber Engineering Switched from Postgres to MySQL</a> — Uber Engineering Blog</p>
+
+<p><em>Uber started with a monolithic backend application that used Postgres. As the company evolved and grew, it moved to microservices and changed its approach to working with data. The paper explains why this migration happened and what benefits the company gets from it. There is nothing about OLAP in the paper but still a very interesting story.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /> <img src="https://img.shields.io/badge/topic-databases-28F66A" alt="topic:databases" title="topic: databases" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="architecture" /><category term="databases" /><category term="data-mesh" /><category term="data-privacy" /><category term="data-thoughts" /><category term="storage-engine" /><summary type="html"><![CDATA[Topics: Architecture, databases, data mesh, data privacy, data thoughts, storage engine]]></summary></entry><entry><title type="html">#32. Follow the Spark</title><link href="https://deordie.org//32_Follow_the_Spark/" rel="alternate" type="text/html" title="#32. Follow the Spark" /><published>2023-05-06T00:00:00+00:00</published><updated>2023-05-06T00:00:00+00:00</updated><id>https://deordie.org//32_Follow_the_Spark</id><content type="html" xml:base="https://deordie.org//32_Follow_the_Spark/"><![CDATA[<p><em>Topics: Architecture, databases, Apache Spark, practices</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><strong>Spark SQL Query Engine Deep Dive – Adaptive Query Execution:</strong> <a href="https://dataninjago.com/2022/02/14/spark-sql-query-engine-deep-dive-19-adaptive-query-execution-part-1/">part I</a> &amp; <a href="https://dataninjago.com/2022/02/21/spark-sql-query-engine-deep-dive-20-adaptive-query-execution-part-2/">part II</a> – Linxiao Ma</p>
+
+<p><em>It’s absolutely brilliant blog. I adore it. These articles declares Spark Adaptive Query Execution very deeply.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-spark-6157A8" alt="topic:spark" title="topic: Apache Spark" /></p>
+
+<hr />
+
+<p><a href="https://towardsdatascience.com/5-helpful-extract-load-practices-for-high-quality-raw-data-65b9a59a8721">5 Helpful Extract &amp; Load Practices for High-Quality Raw Data</a> — Sven Balnojan</p>
+
+<p><em>What layer do you focus on when creating data architecture? If it’s not Raw, then this article is for you. 5 points that will save your time n future.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /> <img src="https://img.shields.io/badge/topic-practices-7AC6AA" alt="topic:practices" title="topic: practices" /></p>
+
+<hr />
+
+<p><a href="https://medium.com/@hnasr/following-a-database-read-to-the-metal-a187541333c2">Following a database read to the metal</a> — Hussein Nasser</p>
+
+<p><em>Exciting adventure into the query path to data.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-databases-28F66A" alt="topic:databases" title="topic: databases" /></p>
+
+<hr />
+
+<p><a href="https://www.databricks.com/blog/2023/04/18/spark-connect-available-apache-spark.html">Spark Connect Available in Apache Spark 3.4</a> — Databricks Blog</p>
+
+<p><em>Just to keep in touch with a new Spark features. Give it up for Spark Connect.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-spark-6157A8" alt="topic:spark" title="topic: Apache Spark" /></p>
+
+<hr />
+
+<p><a href="https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a">Functional Data Engineering — a modern paradigm for batch data processing</a> — Maxime Beauchemin</p>
+
+<p><em>It’s very old. But quite conceptual.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="architecture" /><category term="databases" /><category term="spark" /><category term="practices" /><summary type="html"><![CDATA[Topics: Architecture, databases, Apache Spark, practices]]></summary></entry><entry><title type="html">#31. Data-driven is a new black</title><link href="https://deordie.org//31_Data-driven_is_a_new_black/" rel="alternate" type="text/html" title="#31. Data-driven is a new black" /><published>2023-04-18T00:00:00+00:00</published><updated>2023-04-18T00:00:00+00:00</updated><id>https://deordie.org//31_Data-driven_is_a_new_black</id><content type="html" xml:base="https://deordie.org//31_Data-driven_is_a_new_black/"><![CDATA[<p><em>Topics: Architecture, data modeling, distributed systems</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://www.infoq.com/articles/architecture-trends-2023/">Software Architecture and Design InfoQ Trends Report - April 2023</a> — InfoQ</p>
+
+<p><em>Data engineers are dealing with code as much as with data. It means that software architecture and design are not alien to us.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /></p>
+
+<hr />
+
+<p><a href="https://preset.io/blog/introducing-entity-centric-data-modeling-for-analytics/">Introducing Entity-Centric Data Modeling for Analytics</a> — Maxime Beauchemin @ Preset Blog</p>
+
+<p><em>Entity-centric data modeling (ECM) introduction from Maxime Beauchemin, CEO Preset and creator and lead committer on Apache Airflow and Apache Superset. Just imagine that metrics can also live in the dimension tables and go to read.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--modeling-F77A67" alt="topic:data-modeling" title="topic: data modeling" /></p>
+
+<hr />
+
+<p><a href="http://muratbuffalo.blogspot.com/2023/04/the-end-of-myth-distributed.html">The end of a myth: Distributed transactions can scale</a> — Murat Demirbas Blog</p>
+
+<p><em>Analysis of the paper of the same name. If you want to switch your mind, then remote direct memory access and snapshot isolation are waiting for you.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-distributed--systems-CE3DAE" alt="topic:distributed-systems" title="topic: distributed systems" /></p>
+
+<hr />
+
+<p><a href="https://doordash.engineering/2023/04/12/using-metrics-layer-to-standardize-and-scale-experimentation-at-doordash/">Using Metrics Layer to Standardize and Scale Experimentation at DoorDash</a> — Arun Balasubramani @ DoorDash engineering blog</p>
+
+<p><em>It’s not the first article about metric’s layer in our blog, but again it worth to be seen. Motivation and challenges are waiting for you.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /></p>
+
+<hr />
+
+<p><a href="https://towardsdatascience.com/your-data-catalog-shouldnt-be-just-one-more-ui-e6bffb793cf1">Your Data Catalog Shouldn’t Be Just One More UI</a> — Mahdi Karabiben</p>
+
+<p><em>When a data catalog is not only for business users.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="architecture" /><category term="data-modeling" /><category term="distributed-systems" /><summary type="html"><![CDATA[Topics: Architecture, data modeling, distributed systems]]></summary></entry><entry><title type="html">#30. Go to Data Engineering</title><link href="https://deordie.org//30_Go_to_Data_Engineering/" rel="alternate" type="text/html" title="#30. Go to Data Engineering" /><published>2023-04-01T00:00:00+00:00</published><updated>2023-04-01T00:00:00+00:00</updated><id>https://deordie.org//30_Go_to_Data_Engineering</id><content type="html" xml:base="https://deordie.org//30_Go_to_Data_Engineering/"><![CDATA[<p><em>Topics: Databases, data thoughts, practices, Apache Spark, streaming</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://www.youtube.com/watch?v=oV9rvDllKEg">Concurrency is not Parallelism by Rob Pike</a> (<a href="https://go.dev/talks/2012/waza.slide">slides</a>) — Rob Pike</p>
+
+<p><em>Rob Pike is a software engineer, best known for his work on the Go programming language. Quite old but still relevant talk discussing the crucial distinctions between concurrency and parallelism. Such foundational engineering concepts are cross disciplines and I would say must-have knowledge for all engineers.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-practices-7AC6AA" alt="topic:practices" title="topic: practices" /> <img src="https://img.shields.io/badge/type-video-C21BC6" alt="type:video" title="type: video" /></p>
+
+<hr />
+
+<p><a href="https://www.uber.com/en-DE/blog/ubers-lakehouse-architecture/">Setting Uber’s Transactional Data Lake in Motion with Incremental ETL Using Apache Hudi</a> — Uber Engineering Blog</p>
+
+<p><em>As usual, Uber’s blog is fantastic resource for new ideas. This fresh article explains how to build streaming ETL framework and how to address some well-known issue on this way.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-streaming-F15A02" alt="topic:streaming" title="topic: streaming" /></p>
+
+<hr />
+
+<p><a href="https://medium.com/@hareesha1906/apache-spark-job-monitoring-f2332ef50915">Apache Spark — Job monitoring</a> — Hareesha Dandamudi</p>
+
+<p><em>Short and understandable article about SparkListener. Quite a useful thing for creating monitoring and lineage handling (as OpenLineage does). Just use it as a start for your own articles research :)</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-spark-6157A8" alt="topic:spark" title="topic: Apache Spark" /></p>
+
+<hr />
+
+<p><a href="https://medium.com/data-engineer-things/the-question-that-every-data-engineer-should-ask-a70cb6d422e4">The Question That Every Data Engineer Should Ask</a> — Xinran Waibel @ Data Engineer Things Blog</p>
+
+<p><em>Vital and clickbait.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--thoughts-3AC9BA" alt="topic:data-thoughts" title="topic: data thoughts" /></p>
+
+<hr />
+
+<p><a href="https://trino.io/docs/current/optimizer/pushdown.html">Pushdown</a> — Trino Query optimizer docs</p>
+
+<p><em>Pushdown is a powerful query optimization that moves predicates in the WHERE clause closer to the tables they refer to. This is Trino docs, but you can go through all types and find them in other query engines. It can help you in reading query plans a lot.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-databases-28F66A" alt="topic:databases" title="topic: databases" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="databases" /><category term="data-thoughts" /><category term="practices" /><category term="spark" /><category term="streaming" /><summary type="html"><![CDATA[Topics: Databases, data thoughts, practices, Apache Spark, streaming]]></summary></entry><entry><title type="html">#29. Advent of Data</title><link href="https://deordie.org//29_Advent_of_Data/" rel="alternate" type="text/html" title="#29. Advent of Data" /><published>2023-03-04T00:00:00+00:00</published><updated>2023-03-04T00:00:00+00:00</updated><id>https://deordie.org//29_Advent_of_Data</id><content type="html" xml:base="https://deordie.org//29_Advent_of_Data/"><![CDATA[<p><em>Topics: Cost management, dbt, education, practices, Snowflake, storage engine</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://motherduck.com/blog/solving-advent-code-duckdb-dbt/">Solving Advent of Code with DuckDB and DBT</a> — Graham  Wetzler</p>
+
+<p><em>Have you ever thought about solving Advent of Code using SQL? While ones dream others do.</em></p>
+
+<p><em>Bonus: Do you know about <a href="https://www.adventofdata.com/">Advent of Data</a>? It is a set of articles on various data topics designed in the advent calendar style.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-dbt-D0FAB0" alt="topic:dbt" title="topic: dbt" /></p>
+
+<hr />
+
+<p><a href="https://www.querifylabs.com/blog/distinct-aggregation-optimization-in-apache-calcite-and-trino">Distinct aggregation optimization in Apache Calcite and Trino</a> — Querify Labs Blog</p>
+
+<p><em>Good and detailed description of how DISTINCT is implemented in Calcite and Trino engines.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-storage--engine-0A6531" alt="topic:storage-engine" title="topic: storage engine" /></p>
+
+<hr />
+
+<p><a href="https://towardsdatascience.com/the-chaos-data-engineering-manifesto-5dc09a182e85">The Chaos Data-Engineering Manifesto</a> — Shane Murray @ Towards Data Science Blog</p>
+
+<p><em>Very vital and easy-to-read article about the adaptation of chaos engineering to meet the needs of data engineers. “Nothing acts like prod, but prod. And nothing fails like prod, but prod.”</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-practices-7AC6AA" alt="topic:practices" title="topic: practices" /></p>
+
+<hr />
+
+<p><a href="https://select.dev/posts/essential-snowflake-cost-reduction-strategies">Essential Snowflake Cost Reduction Strategies</a> — Niall Woodward @ select.dev Blog</p>
+
+<p><em>Cloud can help you to release MVP as soon as possible. But also in final you can be bare as a bone. How to prevent it?</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-cost--management-5AC955" alt="topic:cost-management" title="topic: cost management" /> <img src="https://img.shields.io/badge/topic-snowflake-4C8FF8" alt="topic:snowflake" title="topic: Snowflake" /></p>
+
+<hr />
+
+<p><a href="https://understandingdata.com/posts/the-data-engineers-roadmap/">The Data Engineer’s Roadmap</a> — James Phoenix</p>
+
+<p><em>You will say: “Oh, another one article about how to be a data engineer.” But! Firstly, there are new data engineers who want to grow. Secondly, we have team leads here so that they can share this article with colleagues. Additional materials included &lt;3</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-education-22724A" alt="topic:education" title="topic: education" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="cost-management" /><category term="dbt" /><category term="education" /><category term="practices" /><category term="snowflake" /><category term="storage-engine" /><summary type="html"><![CDATA[Topics: Cost management, dbt, education, practices, Snowflake, storage engine]]></summary></entry><entry><title type="html">#28. No data — no problem</title><link href="https://deordie.org//28_No_data_-_no_problem/" rel="alternate" type="text/html" title="#28. No data — no problem" /><published>2023-02-18T00:00:00+00:00</published><updated>2023-02-18T00:00:00+00:00</updated><id>https://deordie.org//28_No_data_%E2%80%94_no_problem</id><content type="html" xml:base="https://deordie.org//28_No_data_-_no_problem/"><![CDATA[<p><em>Topics: AWS, databases, data lineage, data thoughts, Python, streaming, testing</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://motherduck.com/blog/big-data-is-dead/">BIG DATA IS DEAD</a> — Jordan Tigani</p>
+
+<p><em>When size doesn’t matter.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--thoughts-3AC9BA" alt="topic:data-thoughts" title="topic: data thoughts" /></p>
+
+<hr />
+
+<p><a href="https://www.montecarlodata.com/title-5-ways-to-use-column-level-data-lineage">Title: 5 Ways to Use Column Level Data Lineage</a> — Montecarlo Data Blog</p>
+
+<p><em>Have you ever thought of implementing column level lineage? If not, just read why it can be extremely helpful to have.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-data--lineage-8CE67B" alt="topic:data-lineage" title="topic: data lineage" /></p>
+
+<hr />
+
+<p><a href="https://nedbatchelder.com/blog/201908/why_your_mock_doesnt_work.html">Why your mock doesn’t work</a> — Ned Batchelder</p>
+
+<p><em>I often come across the situations where my Mock didn’t work as I expected. I hate Python for that. This pretty short article showed me that I should hate someone else [most likely underinvestment into language]. I just misunderstood the basics. Must-read article which provides a brief explanation of how exactly variable assignment in import statements works in Python and what we should keep in mind working with Mock.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-python-EE9510" alt="topic:python" title="topic: Python" /> <img src="https://img.shields.io/badge/topic-testing-0CEBF1" alt="topic:testing" title="topic: testing" /></p>
+
+<hr />
+
+<p><a href="https://engineering.fb.com/2020/08/17/production-engineering/async/">Driving efficiency and developer productivity at Facebook scale</a>, 
+<a href="https://engineering.fb.com/2023/01/31/production-engineering/meta-asynchronous-computing/">Asynchronous computing at Meta: Overview and learnings</a> — Engineering at Meta Blog</p>
+
+<p><em>By the name you could think it is something from other world. You are right but only partially. Actually these are 2 articles of how to build a mix of scalable ETL and distributed computation in-house.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-streaming-F15A02" alt="topic:streaming" title="topic: streaming" /></p>
+
+<hr />
+
+<p><a href="https://ottertune.com/blog/how-amazon-rds-replication-works-and-why-the-faas-database-problem-wont-happen-in-aws/">How Amazon RDS Replication Works and Why the FAA’s Database Problem Won’t Happen in AWS</a> — Bohan Zhang, Andy Pavlo @ OtterTune Blog</p>
+
+<p><em>Basic overview of how Amazon RDS and Amazon Aurora replication works. A good starting point to better understand what database replication is.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-aws-D93F0B" alt="topic:aws" title="topic: AWS" /> <img src="https://img.shields.io/badge/topic-databases-28F66A" alt="topic:databases" title="topic: databases" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="aws" /><category term="databases" /><category term="data-lineage" /><category term="data-thoughts" /><category term="python" /><category term="streaming" /><category term="testing" /><summary type="html"><![CDATA[Topics: AWS, databases, data lineage, data thoughts, Python, streaming, testing]]></summary></entry><entry><title type="html">#27. New Year with a New Database</title><link href="https://deordie.org//27_New_Year_with_a_New_Database/" rel="alternate" type="text/html" title="#27. New Year with a New Database" /><published>2023-02-04T00:00:00+00:00</published><updated>2023-02-04T00:00:00+00:00</updated><id>https://deordie.org//27_New_Year_with_a_New_Database</id><content type="html" xml:base="https://deordie.org//27_New_Year_with_a_New_Database/"><![CDATA[<p><em>Topics: Apache Airflow, benchmark, databases, data thoughts, GCP, Spanner, storage, testing</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://ottertune.com/blog/2022-databases-retrospective/">Databases in 2022: A Year in Review</a> — Andy Pavlo @ OtterTune blog</p>
+
+<p><em>Interesting review by Andy Pavlo about databases’ state by the end of 2022. Andy touched on database companies’ funding situation, blockchain, new database systems which getting popularity in 2022, and a few other topics.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-databases-28F66A" alt="topic:databases" title="topic: databases" /> <img src="https://img.shields.io/badge/topic-data--thoughts-3AC9BA" alt="topic:data-thoughts" title="topic: data thoughts" /></p>
+
+<hr />
+
+<p><a href="https://www.uber.com/en-IE/blog/cost-efficiency-big-data/">Cost Efficiency @ Scale in Big Data File Format</a> — Uber Engineering blog</p>
+
+<p><em>If you need to choose compression type for parquet files in you data lake, this article is good starting point.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-benchmark-073151" alt="topic:benchmark" title="topic: benchmark" /> <img src="https://img.shields.io/badge/topic-storage-F51F63" alt="topic:storage" title="topic: storage" /></p>
+
+<hr />
+
+<p><a href="https://cloud.google.com/blog/products/databases/a-technical-overview-of-cloud-spanners-query-optimizer">A deep dive into Spanner’s query optimizer</a> — Campbell Fraser, Vlad Lifliand @ Google Cloud Blog</p>
+
+<p><em>A good introduction to how the query optimizer works on a simple example. In this article, you will find what types of optimizations are used in Spanner, what optimizer statistics are collected, and how to deal with different optimizer versions.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-gcp-4CD30D" alt="topic:gcp" title="topic: GCP" /> <img src="https://img.shields.io/badge/topic-spanner-4BBEE8" alt="topic:spanner" title="topic: Spanner" /></p>
+
+<hr />
+
+<p><a href="https://www.astronomer.io/blog/micropipelines-a-microservice-approach-for-dag-authoring-in-apache-airflow/">Micropipelines: A Microservice Approach for DAG Authoring in Apache Airflow</a> — Vikram Koka @ Astronomer Blog</p>
+
+<p><em>No more monolithic pipelines. Please put your hands together for micropipelines!</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-airflow-F8B4C6" alt="topic:airflow" title="Apache Airflow" /></p>
+
+<hr />
+
+<p><a href="https://www.youtube.com/watch?v=uzVewG8M6r0">Learn to Efficiently Test ETL Pipelines</a> — Jacqueline Bilston</p>
+
+<p><em>This is an absolutely amazing presentation about data pipelines unit testing. Hadn’t seen any resource that was so specific about data pipeline testing so far.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-beginner-blue" alt="level:beginner" title="level: beginner" /> <img src="https://img.shields.io/badge/topic-testing-0CEBF1" alt="topic:testing" title="topic: testing" /> <img src="https://img.shields.io/badge/type-video-C21BC6" alt="type:video" title="type: video" /></p>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->]]></content><author><name></name></author><category term="airflow" /><category term="benchmark" /><category term="databases" /><category term="data-thoughts" /><category term="gcp" /><category term="spanner" /><category term="storage" /><category term="testing" /><summary type="html"><![CDATA[Topics: Apache Airflow, benchmark, databases, data thoughts, GCP, Spanner, storage, testing]]></summary></entry></feed>

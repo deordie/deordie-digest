@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#19. Back to business – DE or DIE: Digest – Data Engineering Digest</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Topics: Architecture, Apache Druid, Apache Kafka, Presto, storage engine, streaming
+
+" />
+    <meta property="og:description" content="Topics: Architecture, Apache Druid, Apache Kafka, Presto, storage engine, streaming
+
+" />
+    
+    <meta name="author" content="DE or DIE: Digest" />
+
+    
+    <meta property="og:title" content="#19. Back to business" />
+    <meta property="twitter:title" content="#19. Back to business" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="DE or DIE: Digest - Data Engineering Digest" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://user-images.githubusercontent.com/408149/113920628-af5bbb80-97ed-11eb-91df-523cf5d27254.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">DE or DIE: Digest</a></h1>
+            <p class="site-description">Data Engineering Digest</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/tag-cloud">Tag cloud</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>#19. Back to business</h1>
+
+  <div class="entry">
+    <p><em>Topics: Architecture, Apache Druid, Apache Kafka, Presto, storage engine, streaming</em></p>
+
+<!--cut-->
+
+<hr />
+
+<p><a href="https://vldb.org/pvldb/vol14/p3135-begoli.pdf">Watermarks in Stream Processing Systems: Semantics and Comparative Analysis of Apache Flink and Google Cloud Dataflow</a> — Tyler Akidau</p>
+
+<p><em>A new white paper from Tyler Akidau (author of the very cool book "Streaming Systems") where they compare watermarks in different aspects in Google Cloud Dataflow and Apache Flink. Watermarks represent the temporal completeness of an out-of-order data stream. Reasoning about the completeness of infinite streams is one of the most critical challenges faced by stream processing systems. It’s also one of the least understood and least adequately addressed compared to other approaches for dealing with the completeness of unbounded data streams.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-streaming-F15A02" alt="topic:streaming" title="topic: streaming" /> <img src="https://img.shields.io/badge/type-whitepaper-900F02" alt="type:whitepaper" title="type: whitepaper" /></p>
+
+<hr />
+
+<p><a href="http://highscalability.com/blog/2022/1/11/designing-instagram.html">Designing Instagram</a> — HighScalability Blog</p>
+
+<p><em>Do you want to try to design Instagram with Machine Learning Lead from Amazon? Well, now you can do it.<br />
+This article is follow up to <a href="https://www.youtube.com/watch?v=brX3AXmXHQA">DE or DIE Meetup #9</a> (in Russian).</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /></p>
+
+<hr />
+
+<p><a href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter">Powering real-time data analytics with Druid at Twitter</a> — Twitter Engineering Blog</p>
+
+<p><em>At least, now we know that Druid has out-of-the-box ingestion connectors for Apache Kafka, and it seems that it works great! Just check Twitter streaming architecture.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /> <img src="https://img.shields.io/badge/topic-druid-0E7C47" alt="topic:druid" title="topic: Apache Druid" /></p>
+
+<hr />
+
+<p><a href="https://eng.uber.com/presto-on-apache-kafka-at-uber-scale/">Presto on Apache Kafka At Uber Scale</a> — User Engineering Blog</p>
+
+<p><em>We like Uber engineering posts so much. Because they seem like ADRs: problem, current environment description, alternatives, supposed architecture.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-medium-blue" alt="level:medium" title="level: medium" /> <img src="https://img.shields.io/badge/topic-architecture-260C3B" alt="topic:architecture" title="topic: architecture" /> <img src="https://img.shields.io/badge/topic-kafka-CB9EB8" alt="topic:kafka" title="topic: Apache Kafka" /> <img src="https://img.shields.io/badge/topic-presto-5AABB6" alt="topic:presto" title="Presto" /></p>
+
+<hr />
+
+<p><a href="https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html">Replicated Log</a> — Unmesh Joshi</p>
+
+<p><em>This article helps you to understand what replication looks like. With a lot of details and a lot of code snippets, you can even write your own implementation of the replication log for sure.</em></p>
+
+<p><img src="https://img.shields.io/badge/level-advanced-blue" alt="level:advanced" title="level: advanced" /> <img src="https://img.shields.io/badge/topic-storage--engine-0A6531" alt="topic:storage-engine" title="topic: storage engine" /></p>
+
+<hr />
+
+<h3 id="upcoming-conferences">Upcoming Conferences</h3>
+
+<ul>
+  <li>Airflow Summit, May 23-27, <a href="https://airflowsummit.org/">https://airflowsummit.org/</a></li>
+  <li>Snowflake Summit, June 13-16, <a href="https://www.snowflake.com/summit">https://www.snowflake.com/summit</a></li>
+  <li>Data and AI Summit, June 27-30, <a href="https://databricks.com/dataaisummit/north-america-2022">https://databricks.com/dataaisummit/north-america-2022</a></li>
+</ul>
+
+<hr />
+
+<!--levels-->
+
+<!--topics-->
+
+<!--types-->
+
+
+  </div>
+
+  <div class="date">
+    Written on May 20, 2022
+  </div>
+
+  
+  <script type="text/javascript">
+      window.addEventListener('DOMContentLoaded', function (event)  {
+        document.querySelectorAll("a").forEach((a) => {
+          a.addEventListener("click", (event) => {
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+              ga('send', {
+              'hitType': 'event',
+              'eventCategory': 'articles',
+              'eventAction': 'click',
+              'eventLabel':  a.textContent});
+          });
+        })
+      });
+  </script>
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:digest@deordie.org"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/deordie/deordie-digest"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+<a href="https://www.twitter.com/_deordie"><i class="svg-icon twitter"></i></a>
+
+<a href="https://youtube.com/channel/UCu1wzyJM_oBAaqX7T22ZsZg"><i class="svg-icon youtube"></i></a>
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-196588307-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/19_Back_to_business/',
+		  'title': '#19. Back to business'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>
